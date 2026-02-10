@@ -64,12 +64,27 @@ def generar_mapeo_hojas():
             
             print(f"✓ Archivo: {año}.xlsx")
             
-            # Leer los títulos de cada hoja (fila 6, columna A)
+            # Leer los títulos de cada hoja (fila 6 para nuevos, fila 1 para antiguos)
             titulos_por_hoja = {}
             for nombre_hoja in nombres_hojas:
                 try:
                     ws = wb[nombre_hoja]
-                    titulo = ws['A6'].value  # Leer título en fila 6
+                    # Leer ambas posibles ubicaciones
+                    titulo_a6 = ws['A6'].value
+                    titulo_a1 = ws['A1'].value
+                    
+                    # Determinar cuál es el título real basado en la longitud
+                    # Los títulos suelen ser largos (>30 caracteres)
+                    titulo = None
+                    if titulo_a6 and len(str(titulo_a6)) > 30:
+                        titulo = titulo_a6
+                    elif titulo_a1 and len(str(titulo_a1)) > 30:
+                        titulo = titulo_a1
+                    elif titulo_a6:
+                        titulo = titulo_a6
+                    elif titulo_a1:
+                        titulo = titulo_a1
+                    
                     if titulo:
                         titulos_por_hoja[nombre_hoja] = str(titulo).strip()
                 except:

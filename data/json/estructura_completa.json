@@ -1,124 +1,125 @@
 {
   "Defunciones por año de ocurrencia, según departamento de residencia del difunto(a)": {
     "2015": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Año de ocurrencia": [
-          "2019",
-          "2020",
-          "2021",
-          "2022",
-          "2023"
-        ]
-      },
-      "total_columnas": 6,
-      "hoja": "Serie histórica"
+      "tipo": "simple",
+      "encabezados": [
+        "Chimaltenango",
+        "2703",
+        "220",
+        "1",
+        "83",
+        "2333",
+        "30",
+        "5",
+        "4",
+        "1",
+        "5",
+        "6",
+        "1",
+        "1",
+        "1",
+        "8",
+        "1"
+      ],
+      "total_columnas": 17,
+      "hoja": "Depto. ocurrencia y residencia"
     },
     "2016": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Año de ocurrencia": [
-          "2019",
-          "2020",
-          "2021",
-          "2022",
-          "2023"
-        ]
-      },
-      "total_columnas": 6,
-      "hoja": "Serie histórica"
+      "tipo": "simple",
+      "encabezados": [
+        "Chimaltenango",
+        "2883",
+        "245"
+      ],
+      "total_columnas": 3,
+      "hoja": "Depto. ocurrencia y residencia"
     },
     "2017": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Año de ocurrencia": [
-          "2019",
-          "2020",
-          "2021",
-          "2022",
-          "2023"
-        ]
-      },
-      "total_columnas": 6,
-      "hoja": "Serie histórica"
+      "tipo": "simple",
+      "encabezados": [
+        "Chimaltenango",
+        "2893",
+        "226"
+      ],
+      "total_columnas": 3,
+      "hoja": "Depto. ocurrencia y residencia"
     },
     "2018": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Año de ocurrencia": [
-          "2019",
-          "2020",
-          "2021",
-          "2022",
-          "2023"
-        ]
-      },
-      "total_columnas": 6,
-      "hoja": "Serie histórica"
+      "tipo": "simple",
+      "encabezados": [
+        "Chimaltenango",
+        "2857",
+        "231",
+        "1",
+        "91",
+        "2464",
+        "36",
+        "4",
+        "4",
+        "1",
+        "4",
+        "6"
+      ],
+      "total_columnas": 12,
+      "hoja": "Depto. ocurrencia y residencia"
     },
     "2019": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Año de ocurrencia": [
-          "2019",
-          "2020",
-          "2021",
-          "2022",
-          "2023"
-        ]
-      },
-      "total_columnas": 6,
-      "hoja": "Serie histórica"
+      "tipo": "simple",
+      "encabezados": [
+        "Chimaltenango",
+        "2984",
+        "297",
+        "1",
+        "89",
+        "2537",
+        "26",
+        "2",
+        "6"
+      ],
+      "total_columnas": 9,
+      "hoja": "Depto. ocurrencia y residencia"
     },
     "2020": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Año de ocurrencia": [
-          "2019",
-          "2020",
-          "2021",
-          "2022",
-          "2023"
-        ]
-      },
-      "total_columnas": 6,
-      "hoja": "Serie histórica"
+      "tipo": "simple",
+      "encabezados": [
+        "Chimaltenango",
+        "136",
+        "62",
+        "12"
+      ],
+      "total_columnas": 4,
+      "hoja": "Lugar ocurrencia y depto resi"
     },
     "2021": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Año de ocurrencia": [
-          "2019",
-          "2020",
-          "2021",
-          "2022",
-          "2023"
-        ]
-      },
-      "total_columnas": 6,
-      "hoja": "Serie histórica"
+      "tipo": "simple",
+      "encabezados": [
+        "Chimaltenango",
+        "4354",
+        "341"
+      ],
+      "total_columnas": 3,
+      "hoja": "1 Depto ocurrencia y residencia"
     },
     "2022": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Año de ocurrencia": [
-          "2019",
-          "2020",
-          "2021",
-          "2022",
-          "2023"
-        ]
-      },
-      "total_columnas": 6,
-      "hoja": "Serie histórica"
+      "tipo": "simple",
+      "encabezados": [
+        "Chimaltenango",
+        "3322",
+        "253",
+        "1",
+        "62",
+        "2938",
+        "25",
+        "6",
+        "5",
+        "4",
+        "8",
+        "4",
+        "2",
+        "3"
+      ],
+      "total_columnas": 14,
+      "hoja": "1 Depto ocurrencia y residencia"
     },
     "2023": {
       "tipo": "agrupado",
@@ -153,267 +154,123 @@
   },
   "Defunciones por departamento de ocurrencia, según departamento de residencia del difunto(a)": {
     "2015": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Departamento de ocurrencia": [
-          "Total",
-          "Guatemala",
-          "El Progreso",
-          "Sacatepéquez",
-          "Chimaltenango",
-          "Escuintla",
-          "Santa Rosa",
-          "Sololá",
-          "Totonicapán",
-          "Quetzaltenango",
-          "Suchitepéquez",
-          "Retalhuleu",
-          "San Marcos",
-          "Huehuetenango",
-          "Quiché",
-          "Baja Verapaz",
-          "Alta Verapaz",
-          "Petén",
-          "Izabal",
-          "Zacapa",
-          "Chiquimula",
-          "Jalapa",
-          "Jutiapa"
-        ]
-      },
-      "total_columnas": 24,
-      "hoja": "1 Depto ocurrencia y residencia"
+      "tipo": "simple",
+      "encabezados": [
+        "Chimaltenango",
+        "2703",
+        "220",
+        "1",
+        "83",
+        "2333",
+        "30",
+        "5",
+        "4",
+        "1",
+        "5",
+        "6",
+        "1",
+        "1",
+        "1",
+        "8",
+        "1"
+      ],
+      "total_columnas": 17,
+      "hoja": "Depto. ocurrencia y residencia"
     },
     "2016": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Departamento de ocurrencia": [
-          "Total",
-          "Guatemala",
-          "El Progreso",
-          "Sacatepéquez",
-          "Chimaltenango",
-          "Escuintla",
-          "Santa Rosa",
-          "Sololá",
-          "Totonicapán",
-          "Quetzaltenango",
-          "Suchitepéquez",
-          "Retalhuleu",
-          "San Marcos",
-          "Huehuetenango",
-          "Quiché",
-          "Baja Verapaz",
-          "Alta Verapaz",
-          "Petén",
-          "Izabal",
-          "Zacapa",
-          "Chiquimula",
-          "Jalapa",
-          "Jutiapa"
-        ]
-      },
-      "total_columnas": 24,
-      "hoja": "1 Depto ocurrencia y residencia"
+      "tipo": "simple",
+      "encabezados": [
+        "Chimaltenango",
+        "2883",
+        "245"
+      ],
+      "total_columnas": 3,
+      "hoja": "Depto. ocurrencia y residencia"
     },
     "2017": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Departamento de ocurrencia": [
-          "Total",
-          "Guatemala",
-          "El Progreso",
-          "Sacatepéquez",
-          "Chimaltenango",
-          "Escuintla",
-          "Santa Rosa",
-          "Sololá",
-          "Totonicapán",
-          "Quetzaltenango",
-          "Suchitepéquez",
-          "Retalhuleu",
-          "San Marcos",
-          "Huehuetenango",
-          "Quiché",
-          "Baja Verapaz",
-          "Alta Verapaz",
-          "Petén",
-          "Izabal",
-          "Zacapa",
-          "Chiquimula",
-          "Jalapa",
-          "Jutiapa"
-        ]
-      },
-      "total_columnas": 24,
-      "hoja": "1 Depto ocurrencia y residencia"
+      "tipo": "simple",
+      "encabezados": [
+        "Chimaltenango",
+        "2893",
+        "226"
+      ],
+      "total_columnas": 3,
+      "hoja": "Depto. ocurrencia y residencia"
     },
     "2018": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Departamento de ocurrencia": [
-          "Total",
-          "Guatemala",
-          "El Progreso",
-          "Sacatepéquez",
-          "Chimaltenango",
-          "Escuintla",
-          "Santa Rosa",
-          "Sololá",
-          "Totonicapán",
-          "Quetzaltenango",
-          "Suchitepéquez",
-          "Retalhuleu",
-          "San Marcos",
-          "Huehuetenango",
-          "Quiché",
-          "Baja Verapaz",
-          "Alta Verapaz",
-          "Petén",
-          "Izabal",
-          "Zacapa",
-          "Chiquimula",
-          "Jalapa",
-          "Jutiapa"
-        ]
-      },
-      "total_columnas": 24,
-      "hoja": "1 Depto ocurrencia y residencia"
+      "tipo": "simple",
+      "encabezados": [
+        "Chimaltenango",
+        "2857",
+        "231",
+        "1",
+        "91",
+        "2464",
+        "36",
+        "4",
+        "4",
+        "1",
+        "4",
+        "6"
+      ],
+      "total_columnas": 12,
+      "hoja": "Depto. ocurrencia y residencia"
     },
     "2019": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Departamento de ocurrencia": [
-          "Total",
-          "Guatemala",
-          "El Progreso",
-          "Sacatepéquez",
-          "Chimaltenango",
-          "Escuintla",
-          "Santa Rosa",
-          "Sololá",
-          "Totonicapán",
-          "Quetzaltenango",
-          "Suchitepéquez",
-          "Retalhuleu",
-          "San Marcos",
-          "Huehuetenango",
-          "Quiché",
-          "Baja Verapaz",
-          "Alta Verapaz",
-          "Petén",
-          "Izabal",
-          "Zacapa",
-          "Chiquimula",
-          "Jalapa",
-          "Jutiapa"
-        ]
-      },
-      "total_columnas": 24,
-      "hoja": "1 Depto ocurrencia y residencia"
+      "tipo": "simple",
+      "encabezados": [
+        "Chimaltenango",
+        "2984",
+        "297",
+        "1",
+        "89",
+        "2537",
+        "26",
+        "2",
+        "6"
+      ],
+      "total_columnas": 9,
+      "hoja": "Depto. ocurrencia y residencia"
     },
     "2020": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Departamento de ocurrencia": [
-          "Total",
-          "Guatemala",
-          "El Progreso",
-          "Sacatepéquez",
-          "Chimaltenango",
-          "Escuintla",
-          "Santa Rosa",
-          "Sololá",
-          "Totonicapán",
-          "Quetzaltenango",
-          "Suchitepéquez",
-          "Retalhuleu",
-          "San Marcos",
-          "Huehuetenango",
-          "Quiché",
-          "Baja Verapaz",
-          "Alta Verapaz",
-          "Petén",
-          "Izabal",
-          "Zacapa",
-          "Chiquimula",
-          "Jalapa",
-          "Jutiapa"
-        ]
-      },
-      "total_columnas": 24,
-      "hoja": "1 Depto ocurrencia y residencia"
+      "tipo": "simple",
+      "encabezados": [
+        "Chimaltenango",
+        "136",
+        "10"
+      ],
+      "total_columnas": 3,
+      "hoja": "Depto. ocurrencia y residencia"
     },
     "2021": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Departamento de ocurrencia": [
-          "Total",
-          "Guatemala",
-          "El Progreso",
-          "Sacatepéquez",
-          "Chimaltenango",
-          "Escuintla",
-          "Santa Rosa",
-          "Sololá",
-          "Totonicapán",
-          "Quetzaltenango",
-          "Suchitepéquez",
-          "Retalhuleu",
-          "San Marcos",
-          "Huehuetenango",
-          "Quiché",
-          "Baja Verapaz",
-          "Alta Verapaz",
-          "Petén",
-          "Izabal",
-          "Zacapa",
-          "Chiquimula",
-          "Jalapa",
-          "Jutiapa"
-        ]
-      },
-      "total_columnas": 24,
+      "tipo": "simple",
+      "encabezados": [
+        "Chimaltenango",
+        "4354",
+        "341"
+      ],
+      "total_columnas": 3,
       "hoja": "1 Depto ocurrencia y residencia"
     },
     "2022": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Departamento de ocurrencia": [
-          "Total",
-          "Guatemala",
-          "El Progreso",
-          "Sacatepéquez",
-          "Chimaltenango",
-          "Escuintla",
-          "Santa Rosa",
-          "Sololá",
-          "Totonicapán",
-          "Quetzaltenango",
-          "Suchitepéquez",
-          "Retalhuleu",
-          "San Marcos",
-          "Huehuetenango",
-          "Quiché",
-          "Baja Verapaz",
-          "Alta Verapaz",
-          "Petén",
-          "Izabal",
-          "Zacapa",
-          "Chiquimula",
-          "Jalapa",
-          "Jutiapa"
-        ]
-      },
-      "total_columnas": 24,
+      "tipo": "simple",
+      "encabezados": [
+        "Chimaltenango",
+        "3322",
+        "253",
+        "1",
+        "62",
+        "2938",
+        "25",
+        "6",
+        "5",
+        "4",
+        "8",
+        "4",
+        "2",
+        "3"
+      ],
+      "total_columnas": 14,
       "hoja": "1 Depto ocurrencia y residencia"
     },
     "2023": {
@@ -487,83 +344,71 @@
     "2015": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "4 años",
+        "224",
+        "125",
+        "99"
       ],
       "total_columnas": 5,
-      "hoja": "2 Depto. sexo y edades simples"
+      "hoja": "Depto. sexo y edades simples"
     },
     "2016": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "4 años",
+        "216",
+        "102",
+        "114"
       ],
       "total_columnas": 5,
-      "hoja": "2 Depto. sexo y edades simples"
+      "hoja": "Depto. sexo y edades simples"
     },
     "2017": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "4 años",
+        "209",
+        "108",
+        "101"
       ],
       "total_columnas": 5,
-      "hoja": "2 Depto. sexo y edades simples"
+      "hoja": "Depto. sexo y edades simples"
     },
     "2018": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "4 años",
+        "202",
+        "109",
+        "93"
       ],
       "total_columnas": 5,
-      "hoja": "2 Depto. sexo y edades simples"
+      "hoja": "Depto. sexo y edades simples"
     },
     "2019": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "4 años",
+        "211",
+        "112",
+        "99"
       ],
       "total_columnas": 5,
-      "hoja": "2 Depto. sexo y edades simples"
-    },
-    "2020": {
-      "tipo": "simple",
-      "encabezados": [
-        "Departamento de residencia",
-        "Edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
-      ],
-      "total_columnas": 5,
-      "hoja": "2 Depto. sexo y edades simples"
+      "hoja": "Depto. sexo y edades simples"
     },
     "2021": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "4 años",
+        "158",
+        "82",
+        "76"
       ],
       "total_columnas": 5,
       "hoja": "2 Depto. sexo y edades simples"
@@ -571,11 +416,11 @@
     "2022": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "4 años",
+        "149",
+        "72",
+        "77"
       ],
       "total_columnas": 5,
       "hoja": "2 Depto. sexo y edades simples"
@@ -609,83 +454,71 @@
     "2015": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Grupos de edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "15 - 19",
+        "2353",
+        "1592",
+        "761"
       ],
       "total_columnas": 5,
-      "hoja": "3 Depto. sexo y grupos de edad"
+      "hoja": "Depto. sexo y grupos de edad"
     },
     "2016": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Grupos de edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "15 - 19",
+        "2362",
+        "1616",
+        "746"
       ],
       "total_columnas": 5,
-      "hoja": "3 Depto. sexo y grupos de edad"
+      "hoja": "Depto. sexo y grupos de edad"
     },
     "2017": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Grupos de edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "15 - 19",
+        "2427",
+        "1712",
+        "715"
       ],
       "total_columnas": 5,
-      "hoja": "3 Depto. sexo y grupos de edad"
+      "hoja": "Depto. sexo y grupos de edad"
     },
     "2018": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Grupos de edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "15 - 19",
+        "2094",
+        "1457",
+        "637"
       ],
       "total_columnas": 5,
-      "hoja": "3 Depto. sexo y grupos de edad"
+      "hoja": "Depto. sexo y grupos de edad"
     },
     "2019": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Grupos de edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "15 - 19",
+        "2148",
+        "1443",
+        "705"
       ],
       "total_columnas": 5,
-      "hoja": "3 Depto. sexo y grupos de edad"
-    },
-    "2020": {
-      "tipo": "simple",
-      "encabezados": [
-        "Departamento de residencia",
-        "Grupos de edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
-      ],
-      "total_columnas": 5,
-      "hoja": "3 Depto. sexo y grupos de edad"
+      "hoja": "Depto. sexo y grupos de edad"
     },
     "2021": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Grupos de edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "15 - 19",
+        "1866",
+        "1203",
+        "663"
       ],
       "total_columnas": 5,
       "hoja": "3 Depto. sexo y grupos de edad"
@@ -693,11 +526,11 @@
     "2022": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Grupos de edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "15 - 19",
+        "1851",
+        "1240",
+        "611"
       ],
       "total_columnas": 5,
       "hoja": "3 Depto. sexo y grupos de edad"
@@ -731,90 +564,77 @@
     "2015": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Estado civil",
-        "Grupos de edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "Todos los estados civiles",
+        "65 y más",
+        "35104",
+        "17595",
+        "17509"
       ],
       "total_columnas": 6,
-      "hoja": "4 Depto sexo estado civil edad"
+      "hoja": "Depto. sexo estado civil y edad"
     },
     "2016": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Estado civil",
-        "Grupos de edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "Todos los estados civiles",
+        "65 y más",
+        "35918",
+        "17842",
+        "18076"
       ],
       "total_columnas": 6,
-      "hoja": "4 Depto sexo estado civil edad"
+      "hoja": "Depto. sexo estado civil y edad"
     },
     "2017": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Estado civil",
-        "Grupos de edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "Todos los estados civiles",
+        "65 y más",
+        "36875",
+        "18368",
+        "18507"
       ],
       "total_columnas": 6,
-      "hoja": "4 Depto sexo estado civil edad"
+      "hoja": "Depto. sexo estado civil y edad"
     },
     "2018": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Estado civil",
-        "Grupos de edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "Todos los estados civiles",
+        "65 y más",
+        "37837",
+        "18576",
+        "19261"
       ],
       "total_columnas": 6,
-      "hoja": "4 Depto sexo estado civil edad"
+      "hoja": "Depto. sexo estado civil y edad"
     },
     "2019": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Estado civil",
-        "Grupos de edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "Todos los estados civiles",
+        "65 y más",
+        "39857",
+        "19591",
+        "20266"
       ],
       "total_columnas": 6,
-      "hoja": "4 Depto sexo estado civil edad"
-    },
-    "2020": {
-      "tipo": "simple",
-      "encabezados": [
-        "Departamento de residencia",
-        "Estado civil",
-        "Grupos de edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
-      ],
-      "total_columnas": 6,
-      "hoja": "4 Depto sexo estado civil edad"
+      "hoja": "Depto. sexo estado civil y edad"
     },
     "2021": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Estado civil",
-        "Grupos de edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "Todos los estados civiles",
+        "65 y más",
+        "59797",
+        "31529",
+        "28268"
       ],
       "total_columnas": 6,
       "hoja": "4 Depto sexo estado civil edad"
@@ -822,12 +642,12 @@
     "2022": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Estado civil",
-        "Grupos de edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "Todos los estados civiles",
+        "65 y más",
+        "47147",
+        "23217",
+        "23930"
       ],
       "total_columnas": 6,
       "hoja": "4 Depto sexo estado civil edad"
@@ -863,90 +683,77 @@
     "2015": {
       "tipo": "simple",
       "encabezados": [
-        "Edad",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todas las edades",
+        "X59",
+        "Exposición a factores no especificados",
+        "3060",
+        "2477",
+        "583"
       ],
       "total_columnas": 6,
-      "hoja": "5 Edad sexo y causas de muerte"
+      "hoja": "Edad sexo y causas de muerte"
     },
     "2016": {
       "tipo": "simple",
       "encabezados": [
-        "Edad",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todas las edades",
+        "X59",
+        "Exposición a factores no especificados",
+        "2941",
+        "2387",
+        "554"
       ],
       "total_columnas": 6,
-      "hoja": "5 Edad sexo y causas de muerte"
+      "hoja": "Edad sexo y causas de muerte"
     },
     "2017": {
       "tipo": "simple",
       "encabezados": [
-        "Edad",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todas las edades",
+        "X59",
+        "Exposición a factores no especificados",
+        "2741",
+        "2212",
+        "529"
       ],
       "total_columnas": 6,
-      "hoja": "5 Edad sexo y causas de muerte"
+      "hoja": "Edad sexo y causas de muerte"
     },
     "2018": {
       "tipo": "simple",
       "encabezados": [
-        "Edad",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todas las edades",
+        "K74",
+        "Fibrosis y cirrosis del hígado",
+        "2601",
+        "1649",
+        "952"
       ],
       "total_columnas": 6,
-      "hoja": "5 Edad sexo y causas de muerte"
+      "hoja": "Edad sexo y causas de muerte"
     },
     "2019": {
       "tipo": "simple",
       "encabezados": [
-        "Edad",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todas las edades",
+        "X59",
+        "Exposición a factores no especificados",
+        "2683",
+        "2203",
+        "480"
       ],
       "total_columnas": 6,
-      "hoja": "5 Edad sexo y causas de muerte"
-    },
-    "2020": {
-      "tipo": "simple",
-      "encabezados": [
-        "Edad",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
-      ],
-      "total_columnas": 6,
-      "hoja": "5 Edad sexo y causas de muerte"
+      "hoja": "Edad sexo y causas de muerte"
     },
     "2021": {
       "tipo": "simple",
       "encabezados": [
-        "Edad",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todas las edades",
+        "K74",
+        "Fibrosis y cirrosis del hígado",
+        "3345",
+        "2257",
+        "1088"
       ],
       "total_columnas": 6,
       "hoja": "5 Edad sexo y causas de muerte"
@@ -954,12 +761,12 @@
     "2022": {
       "tipo": "simple",
       "encabezados": [
-        "Edad",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todas las edades",
+        "K74",
+        "Fibrosis y cirrosis del hígado",
+        "3256",
+        "2181",
+        "1075"
       ],
       "total_columnas": 6,
       "hoja": "5 Edad sexo y causas de muerte"
@@ -995,90 +802,90 @@
     "2015": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "X59",
+        "Exposición a factores no especificados",
+        "3060",
+        "2477",
+        "583"
       ],
       "total_columnas": 6,
-      "hoja": "6 Depto sexo y causas de muerte"
+      "hoja": "Depto. sexo y causas de muerte"
     },
     "2016": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "X59",
+        "Exposición a factores no especificados",
+        "2941",
+        "2387",
+        "554"
       ],
       "total_columnas": 6,
-      "hoja": "6 Depto sexo y causas de muerte"
+      "hoja": "Depto. sexo y causas de muerte"
     },
     "2017": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "X59",
+        "Exposición a factores no especificados",
+        "2741",
+        "2212",
+        "529"
       ],
       "total_columnas": 6,
-      "hoja": "6 Depto sexo y causas de muerte"
+      "hoja": "Depto. sexo y causas de muerte"
     },
     "2018": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "K74",
+        "Fibrosis y cirrosis del hígado",
+        "2601",
+        "1649",
+        "952"
       ],
       "total_columnas": 6,
-      "hoja": "6 Depto sexo y causas de muerte"
+      "hoja": "Depto. sexo y causas de muerte"
     },
     "2019": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "X59",
+        "Exposición a factores no especificados",
+        "2683",
+        "2203",
+        "480"
       ],
       "total_columnas": 6,
-      "hoja": "6 Depto sexo y causas de muerte"
+      "hoja": "Depto. sexo y causas de muerte"
     },
     "2020": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "P01",
+        "Feto y recién nacido afectados por complicaciones maternas del embarazo",
+        "73",
+        "38",
+        "35"
       ],
       "total_columnas": 6,
-      "hoja": "6 Depto sexo y causas de muerte"
+      "hoja": "Depto residencia sexo y causas "
     },
     "2021": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "K74",
+        "Fibrosis y cirrosis del hígado",
+        "3345",
+        "2257",
+        "1088"
       ],
       "total_columnas": 6,
       "hoja": "6 Depto sexo y causas de muerte"
@@ -1086,12 +893,12 @@
     "2022": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "K74",
+        "Fibrosis y cirrosis del hígado",
+        "3256",
+        "2181",
+        "1075"
       ],
       "total_columnas": 6,
       "hoja": "6 Depto sexo y causas de muerte"
@@ -1125,131 +932,80 @@
   },
   "Defunciones por tipo de certificación, según departamento y municipio de residencia del difunto(a)": {
     "2015": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Tipo de certificación": [
-          "Medico",
-          "Paramédico",
-          "Autoridad",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 7,
-      "hoja": "7 Tipo certificación depto mun"
+      "tipo": "simple",
+      "encabezados": [
+        "Guatemala",
+        "San José Pinula",
+        "326",
+        "315"
+      ],
+      "total_columnas": 4,
+      "hoja": "Tipo certificación depto. y mun"
     },
     "2016": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Tipo de certificación": [
-          "Medico",
-          "Paramédico",
-          "Autoridad",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 7,
-      "hoja": "7 Tipo certificación depto mun"
+      "tipo": "simple",
+      "encabezados": [
+        "Guatemala",
+        "San José Pinula",
+        "354",
+        "330"
+      ],
+      "total_columnas": 4,
+      "hoja": "Tipo certificación depto. y mun"
     },
     "2017": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Tipo de certificación": [
-          "Medico",
-          "Paramédico",
-          "Autoridad",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 7,
-      "hoja": "7 Tipo certificación depto mun"
+      "tipo": "simple",
+      "encabezados": [
+        "Guatemala",
+        "San José Pinula",
+        "354",
+        "306"
+      ],
+      "total_columnas": 4,
+      "hoja": "Tipo certificación depto. y mun"
     },
     "2018": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Tipo de certificación": [
-          "Medico",
-          "Paramédico",
-          "Autoridad",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 7,
-      "hoja": "7 Tipo certificación depto mun"
+      "tipo": "simple",
+      "encabezados": [
+        "Guatemala",
+        "San José Pinula",
+        "317",
+        "263"
+      ],
+      "total_columnas": 4,
+      "hoja": "Tipo certificación depto. y mun"
     },
     "2019": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Tipo de certificación": [
-          "Medico",
-          "Paramédico",
-          "Autoridad",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 7,
-      "hoja": "7 Tipo certificación depto mun"
-    },
-    "2020": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Tipo de certificación": [
-          "Medico",
-          "Paramédico",
-          "Autoridad",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 7,
-      "hoja": "7 Tipo certificación depto mun"
+      "tipo": "simple",
+      "encabezados": [
+        "Guatemala",
+        "San José Pinula",
+        "367",
+        "302"
+      ],
+      "total_columnas": 4,
+      "hoja": "Tipo certificación depto. y mun"
     },
     "2021": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Tipo de certificación": [
-          "Medico",
-          "Paramédico",
-          "Autoridad",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 7,
+      "tipo": "simple",
+      "encabezados": [
+        "Guatemala",
+        "San José Pinula",
+        "502",
+        "435"
+      ],
+      "total_columnas": 4,
       "hoja": "7 Tipo certificación depto mun"
     },
     "2022": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Tipo de certificación": [
-          "Medico",
-          "Paramédico",
-          "Autoridad",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 7,
+      "tipo": "simple",
+      "encabezados": [
+        "Guatemala",
+        "San José Pinula",
+        "429",
+        "373"
+      ],
+      "total_columnas": 4,
       "hoja": "7 Tipo certificación depto mun"
     },
     "2023": {
@@ -1285,147 +1041,92 @@
   },
   "Defunciones por tipo de asistencia recibida, según departamento y municipio de residencia del difunto(a)": {
     "2015": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Asistencia recibida": [
-          "Médica",
-          "Paramédica",
-          "Comadrona",
-          "Empírica",
-          "Ninguna",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 9,
-      "hoja": "8 Tipo de asistencia depto mun"
+      "tipo": "simple",
+      "encabezados": [
+        "Guatemala",
+        "San José Pinula",
+        "326",
+        "224"
+      ],
+      "total_columnas": 4,
+      "hoja": "Tipo de asistencia depto y mun"
     },
     "2016": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Asistencia recibida": [
-          "Médica",
-          "Paramédica",
-          "Comadrona",
-          "Empírica",
-          "Ninguna",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 9,
-      "hoja": "8 Tipo de asistencia depto mun"
+      "tipo": "simple",
+      "encabezados": [
+        "Guatemala",
+        "San José Pinula",
+        "354",
+        "266"
+      ],
+      "total_columnas": 4,
+      "hoja": "Tipo de asistencia depto y mun"
     },
     "2017": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Asistencia recibida": [
-          "Médica",
-          "Paramédica",
-          "Comadrona",
-          "Empírica",
-          "Ninguna",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 9,
-      "hoja": "8 Tipo de asistencia depto mun"
+      "tipo": "simple",
+      "encabezados": [
+        "Guatemala",
+        "San José Pinula",
+        "354",
+        "255",
+        "1"
+      ],
+      "total_columnas": 5,
+      "hoja": "Tipo de asistencia depto y mun"
     },
     "2018": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Asistencia recibida": [
-          "Médica",
-          "Paramédica",
-          "Comadrona",
-          "Empírica",
-          "Ninguna",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 9,
-      "hoja": "8 Tipo de asistencia depto mun"
+      "tipo": "simple",
+      "encabezados": [
+        "Guatemala",
+        "San José Pinula",
+        "317",
+        "264"
+      ],
+      "total_columnas": 4,
+      "hoja": "Tipo de asistencia depto y mun"
     },
     "2019": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Asistencia recibida": [
-          "Médica",
-          "Paramédica",
-          "Comadrona",
-          "Empírica",
-          "Ninguna",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 9,
-      "hoja": "8 Tipo de asistencia depto mun"
+      "tipo": "simple",
+      "encabezados": [
+        "Guatemala",
+        "San José Pinula",
+        "367",
+        "303"
+      ],
+      "total_columnas": 4,
+      "hoja": "Tipo de asistencia depto y mun"
     },
     "2020": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Asistencia recibida": [
-          "Médica",
-          "Paramédica",
-          "Comadrona",
-          "Empírica",
-          "Ninguna",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 9,
-      "hoja": "8 Tipo de asistencia depto mun"
+      "tipo": "simple",
+      "encabezados": [
+        "Chimaltenango",
+        "136",
+        "86"
+      ],
+      "total_columnas": 3,
+      "hoja": "Asist. recibida y departamento"
     },
     "2021": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Asistencia recibida": [
-          "Médica",
-          "Paramédica",
-          "Comadrona",
-          "Empírica",
-          "Ninguna",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 9,
+      "tipo": "simple",
+      "encabezados": [
+        "Guatemala",
+        "San José Pinula",
+        "502",
+        "437"
+      ],
+      "total_columnas": 4,
       "hoja": "8 Tipo de asistencia depto mun"
     },
     "2022": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Asistencia recibida": [
-          "Médica",
-          "Paramédica",
-          "Comadrona",
-          "Empírica",
-          "Ninguna",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 9,
+      "tipo": "simple",
+      "encabezados": [
+        "Guatemala",
+        "San José Pinula",
+        "429",
+        "380",
+        "2"
+      ],
+      "total_columnas": 5,
       "hoja": "8 Tipo de asistencia depto mun"
     },
     "2023": {
@@ -1467,163 +1168,110 @@
   },
   "Defunciones por lugar de ocurrencia, según departamento y municipio de residencia del difunto(a)": {
     "2015": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Lugar de ocurrencia": [
-          "Hospital Público",
-          "Hospital Privado",
-          "Centro de Salud",
-          "Seguro Social",
-          "Vía Pública",
-          "Domicilio",
-          "Otro",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 11,
-      "hoja": "9 Lugar ocurrencia depto y mun"
+      "tipo": "simple",
+      "encabezados": [
+        "Guatemala",
+        "San José Pinula",
+        "326",
+        "49",
+        "20"
+      ],
+      "total_columnas": 5,
+      "hoja": "Lugar ocurrencia depto y mun"
     },
     "2016": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Lugar de ocurrencia": [
-          "Hospital Público",
-          "Hospital Privado",
-          "Centro de Salud",
-          "Seguro Social",
-          "Vía Pública",
-          "Domicilio",
-          "Otro",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 11,
-      "hoja": "9 Lugar ocurrencia depto y mun"
+      "tipo": "simple",
+      "encabezados": [
+        "Guatemala",
+        "San José Pinula",
+        "354",
+        "54",
+        "28"
+      ],
+      "total_columnas": 5,
+      "hoja": "Lugar ocurrencia depto y mun"
     },
     "2017": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Lugar de ocurrencia": [
-          "Hospital Público",
-          "Hospital Privado",
-          "Centro de Salud",
-          "Seguro Social",
-          "Vía Pública",
-          "Domicilio",
-          "Otro",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 11,
-      "hoja": "9 Lugar ocurrencia depto y mun"
+      "tipo": "simple",
+      "encabezados": [
+        "Guatemala",
+        "San José Pinula",
+        "354",
+        "43",
+        "17"
+      ],
+      "total_columnas": 5,
+      "hoja": "Lugar ocurrencia depto y mun"
     },
     "2018": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Lugar de ocurrencia": [
-          "Hospital Público",
-          "Hospital Privado",
-          "Centro de Salud",
-          "Seguro Social",
-          "Vía Pública",
-          "Domicilio",
-          "Otro",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 11,
-      "hoja": "9 Lugar ocurrencia depto y mun"
+      "tipo": "simple",
+      "encabezados": [
+        "Guatemala",
+        "San José Pinula",
+        "317",
+        "57",
+        "15"
+      ],
+      "total_columnas": 5,
+      "hoja": "Lugar ocurrencia depto y mun"
     },
     "2019": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Lugar de ocurrencia": [
-          "Hospital Público",
-          "Hospital Privado",
-          "Centro de Salud",
-          "Seguro Social",
-          "Vía Pública",
-          "Domicilio",
-          "Otro",
-          "Ignorado"
-        ]
-      },
+      "tipo": "simple",
+      "encabezados": [
+        "Guatemala",
+        "San José Pinula",
+        "367",
+        "79",
+        "15",
+        "1",
+        "22",
+        "9",
+        "223",
+        "4",
+        "14"
+      ],
       "total_columnas": 11,
-      "hoja": "9 Lugar ocurrencia depto y mun"
+      "hoja": "Lugar ocurrencia depto y mun"
     },
     "2020": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Lugar de ocurrencia": [
-          "Hospital Público",
-          "Hospital Privado",
-          "Centro de Salud",
-          "Seguro Social",
-          "Vía Pública",
-          "Domicilio",
-          "Otro",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 11,
-      "hoja": "9 Lugar ocurrencia depto y mun"
+      "tipo": "simple",
+      "encabezados": [
+        "Chimaltenango",
+        "136",
+        "62",
+        "12"
+      ],
+      "total_columnas": 4,
+      "hoja": "Lugar ocurrencia y depto resi"
     },
     "2021": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Lugar de ocurrencia": [
-          "Hospital Público",
-          "Hospital Privado",
-          "Centro de Salud",
-          "Seguro Social",
-          "Vía Pública",
-          "Domicilio",
-          "Otro",
-          "Ignorado"
-        ]
-      },
+      "tipo": "simple",
+      "encabezados": [
+        "Guatemala",
+        "San José Pinula",
+        "502",
+        "121",
+        "37",
+        "1",
+        "39",
+        "13",
+        "258",
+        "5",
+        "28"
+      ],
       "total_columnas": 11,
       "hoja": "9 Lugar ocurrencia depto y mun"
     },
     "2022": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Lugar de ocurrencia": [
-          "Hospital Público",
-          "Hospital Privado",
-          "Centro de Salud",
-          "Seguro Social",
-          "Vía Pública",
-          "Domicilio",
-          "Otro",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 11,
+      "tipo": "simple",
+      "encabezados": [
+        "Guatemala",
+        "San José Pinula",
+        "429",
+        "103",
+        "19"
+      ],
+      "total_columnas": 5,
       "hoja": "9 Lugar ocurrencia depto y mun"
     },
     "2023": {
@@ -1671,90 +1319,77 @@
     "2015": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Tipo de defunción",
-        "Edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "Defunciones neonatales",
+        "De 14 a 27 días",
+        "759",
+        "432",
+        "327"
       ],
       "total_columnas": 6,
-      "hoja": "10 Infan neonatal post neonatal"
+      "hoja": "Infantil neonatal post neonatal"
     },
     "2016": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Tipo de defunción",
-        "Edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "Defunciones neonatales",
+        "De 14 a 27 días",
+        "718",
+        "408",
+        "310"
       ],
       "total_columnas": 6,
-      "hoja": "10 Infan neonatal post neonatal"
+      "hoja": "Infantil neonatal post neonatal"
     },
     "2017": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Tipo de defunción",
-        "Edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "Defunciones neonatales",
+        "De 14 a 27 días",
+        "768",
+        "434",
+        "334"
       ],
       "total_columnas": 6,
-      "hoja": "10 Infan neonatal post neonatal"
+      "hoja": "Infantil neonatal post neonatal"
     },
     "2018": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Tipo de defunción",
-        "Edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "Defunciones neonatales",
+        "De 14 a 27 días",
+        "747",
+        "416",
+        "331"
       ],
       "total_columnas": 6,
-      "hoja": "10 Infan neonatal post neonatal"
+      "hoja": "Infantil neonatal post neonatal"
     },
     "2019": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Tipo de defunción",
-        "Edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "Defunciones neonatales",
+        "De 14 a 27 días",
+        "698",
+        "392",
+        "306"
       ],
       "total_columnas": 6,
-      "hoja": "10 Infan neonatal post neonatal"
-    },
-    "2020": {
-      "tipo": "simple",
-      "encabezados": [
-        "Departamento de residencia",
-        "Tipo de defunción",
-        "Edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
-      ],
-      "total_columnas": 6,
-      "hoja": "10 Infan neonatal post neonatal"
+      "hoja": "Infantil neonatal post neonatal"
     },
     "2021": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Tipo de defunción",
-        "Edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "Defunciones neonatales",
+        "De 14 a 27 días",
+        "702",
+        "375",
+        "327"
       ],
       "total_columnas": 6,
       "hoja": "10 Infan neonatal post neonatal"
@@ -1762,12 +1397,12 @@
     "2022": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de residencia",
-        "Tipo de defunción",
-        "Edad",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "Defunciones neonatales",
+        "De 14 a 27 días",
+        "757",
+        "397",
+        "360"
       ],
       "total_columnas": 6,
       "hoja": "10 Infan neonatal post neonatal"
@@ -1803,90 +1438,77 @@
     "2015": {
       "tipo": "simple",
       "encabezados": [
-        "Edad",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todas las edades",
+        "P24",
+        "Síndromes de aspiración neonatal",
+        "234",
+        "134",
+        "100"
       ],
       "total_columnas": 6,
-      "hoja": "11 Neonatal sexo causa muerte"
+      "hoja": "Neonatal sexo y causa de muerte"
     },
     "2016": {
       "tipo": "simple",
       "encabezados": [
-        "Edad",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todas las edades",
+        "P21",
+        "Asfixia del nacimiento",
+        "216",
+        "128",
+        "88"
       ],
       "total_columnas": 6,
-      "hoja": "11 Neonatal sexo causa muerte"
+      "hoja": "Neonatal sexo y causa de muerte"
     },
     "2017": {
       "tipo": "simple",
       "encabezados": [
-        "Edad",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todas las edades",
+        "P07",
+        "Trastornos relacionados con duración corta de la gestación y con bajo peso al nacer, no clasificados en otra parte",
+        "188",
+        "110",
+        "78"
       ],
       "total_columnas": 6,
-      "hoja": "11 Neonatal sexo causa muerte"
+      "hoja": "Neonatal sexo y causa de muerte"
     },
     "2018": {
       "tipo": "simple",
       "encabezados": [
-        "Edad",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todas las edades",
+        "P24",
+        "Síndromes de aspiración neonatal",
+        "214",
+        "122",
+        "92"
       ],
       "total_columnas": 6,
-      "hoja": "11 Neonatal sexo causa muerte"
+      "hoja": "Neonatal sexo y causa de muerte"
     },
     "2019": {
       "tipo": "simple",
       "encabezados": [
-        "Edad",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todas las edades",
+        "P24",
+        "Síndromes de aspiración neonatal",
+        "229",
+        "136",
+        "93"
       ],
       "total_columnas": 6,
-      "hoja": "11 Neonatal sexo causa muerte"
-    },
-    "2020": {
-      "tipo": "simple",
-      "encabezados": [
-        "Edad",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
-      ],
-      "total_columnas": 6,
-      "hoja": "11 Neonatal sexo causa muerte"
+      "hoja": "Neonatal sexo y causa de muerte"
     },
     "2021": {
       "tipo": "simple",
       "encabezados": [
-        "Edad",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todas las edades",
+        "P24",
+        "Síndromes de aspiración neonatal",
+        "185",
+        "101",
+        "84"
       ],
       "total_columnas": 6,
       "hoja": "11 Neonatal sexo causa muerte"
@@ -1894,12 +1516,12 @@
     "2022": {
       "tipo": "simple",
       "encabezados": [
-        "Edad",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todas las edades",
+        "P24",
+        "Síndromes de aspiración neonatal",
+        "218",
+        "110",
+        "108"
       ],
       "total_columnas": 6,
       "hoja": "11 Neonatal sexo causa muerte"
@@ -1935,90 +1557,77 @@
     "2015": {
       "tipo": "simple",
       "encabezados": [
-        "Edad",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todas las edades",
+        "D65",
+        "Policitemia vera",
+        "77",
+        "41",
+        "36"
       ],
       "total_columnas": 6,
-      "hoja": "12 Post neonatal sexo y causas"
+      "hoja": "Post neonatal sexo y causas"
     },
     "2016": {
       "tipo": "simple",
       "encabezados": [
-        "Edad",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todas las edades",
+        "D65",
+        "Coagulación intravascular diseminada [síndrome de desfibrinación]",
+        "66",
+        "39",
+        "27"
       ],
       "total_columnas": 6,
-      "hoja": "12 Post neonatal sexo y causas"
+      "hoja": "Post neonatal sexo y causas"
     },
     "2017": {
       "tipo": "simple",
       "encabezados": [
-        "Edad",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todas las edades",
+        "D65",
+        "Coagulación intravascular diseminada [síndrome de desfibrinación]",
+        "63",
+        "40",
+        "23"
       ],
       "total_columnas": 6,
-      "hoja": "12 Post neonatal sexo y causas"
+      "hoja": "Post neonatal sexo y causas"
     },
     "2018": {
       "tipo": "simple",
       "encabezados": [
-        "Edad",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todas las edades",
+        "J15",
+        "Neumonía bacteriana, no clasificada en otra parte",
+        "78",
+        "46",
+        "32"
       ],
       "total_columnas": 6,
-      "hoja": "12 Post neonatal sexo y causas"
+      "hoja": "Post neonatal sexo y causas"
     },
     "2019": {
       "tipo": "simple",
       "encabezados": [
-        "Edad",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todas las edades",
+        "D65",
+        "Coagulación intravascular diseminada [síndrome de desfibrinación]",
+        "59",
+        "32",
+        "27"
       ],
       "total_columnas": 6,
-      "hoja": "12 Post neonatal sexo y causas"
-    },
-    "2020": {
-      "tipo": "simple",
-      "encabezados": [
-        "Edad",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
-      ],
-      "total_columnas": 6,
-      "hoja": "12 Post neonatal sexo y causas"
+      "hoja": "Post neonatal sexo y causas"
     },
     "2021": {
       "tipo": "simple",
       "encabezados": [
-        "Edad",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todas las edades",
+        "Q89",
+        "Otras malformaciones congénitas, no clasificadas en otra parte",
+        "74",
+        "40",
+        "34"
       ],
       "total_columnas": 6,
       "hoja": "12 Post neonatal sexo y causas"
@@ -2026,12 +1635,12 @@
     "2022": {
       "tipo": "simple",
       "encabezados": [
-        "Edad",
-        "Código CIE-10",
-        "Causa de muerte",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todas las edades",
+        "Q89",
+        "Otras malformaciones congénitas, no clasificadas en otra parte",
+        "87",
+        "39",
+        "48"
       ],
       "total_columnas": 6,
       "hoja": "12 Post neonatal sexo y causas"
@@ -2067,146 +1676,146 @@
     "2015": {
       "tipo": "simple",
       "encabezados": [
-        "Día de ocurrencia",
-        "Total",
-        "Enero",
-        "Febrero",
-        "Marzo",
-        "Abril",
-        "Mayo",
-        "Junio",
-        "Julio",
-        "Agosto",
-        "Septiembre",
-        "Octubre",
-        "Noviembre",
-        "Diciembre"
+        "5",
+        "2692",
+        "222",
+        "214",
+        "229",
+        "210",
+        "260",
+        "198",
+        "219",
+        "251",
+        "197",
+        "244",
+        "235",
+        "213"
       ],
       "total_columnas": 14,
-      "hoja": "13 Mes ocurrencia y dia"
+      "hoja": "Mes ocurrencia y dia"
     },
     "2016": {
       "tipo": "simple",
       "encabezados": [
-        "Día de ocurrencia",
-        "Total",
-        "Enero",
-        "Febrero",
-        "Marzo",
-        "Abril",
-        "Mayo",
-        "Junio",
-        "Julio",
-        "Agosto",
-        "Septiembre",
-        "Octubre",
-        "Noviembre",
-        "Diciembre"
+        "5",
+        "2634",
+        "213",
+        "205",
+        "213",
+        "243",
+        "213",
+        "228",
+        "234",
+        "194",
+        "225",
+        "240",
+        "205",
+        "221"
       ],
       "total_columnas": 14,
-      "hoja": "13 Mes ocurrencia y dia"
+      "hoja": "Mes ocurrencia y dia"
     },
     "2017": {
       "tipo": "simple",
       "encabezados": [
-        "Día de ocurrencia",
-        "Total",
-        "Enero",
-        "Febrero",
-        "Marzo",
-        "Abril",
-        "Mayo",
-        "Junio",
-        "Julio",
-        "Agosto",
-        "Septiembre",
-        "Octubre",
-        "Noviembre",
-        "Diciembre"
+        "5",
+        "2753",
+        "193",
+        "223",
+        "243",
+        "250",
+        "212",
+        "234",
+        "230",
+        "219",
+        "248",
+        "235",
+        "255",
+        "211"
       ],
       "total_columnas": 14,
-      "hoja": "13 Mes ocurrencia y dia"
+      "hoja": "Mes ocurrencia y dia"
     },
     "2018": {
       "tipo": "simple",
       "encabezados": [
-        "Día de ocurrencia",
-        "Total",
-        "Enero",
-        "Febrero",
-        "Marzo",
-        "Abril",
-        "Mayo",
-        "Junio",
-        "Julio",
-        "Agosto",
-        "Septiembre",
-        "Octubre",
-        "Noviembre",
-        "Diciembre"
+        "5",
+        "2787",
+        "249",
+        "245",
+        "231",
+        "207",
+        "236",
+        "249",
+        "240",
+        "231",
+        "233",
+        "249",
+        "212",
+        "205"
       ],
       "total_columnas": 14,
-      "hoja": "13 Mes ocurrencia y dia"
+      "hoja": "Mes ocurrencia y dia"
     },
     "2019": {
       "tipo": "simple",
       "encabezados": [
-        "Día de ocurrencia",
-        "Total",
-        "Enero",
-        "Febrero",
-        "Marzo",
-        "Abril",
-        "Mayo",
-        "Junio",
-        "Julio",
-        "Agosto",
-        "Septiembre",
-        "Octubre",
-        "Noviembre",
-        "Diciembre"
+        "5",
+        "2930",
+        "267",
+        "229",
+        "227",
+        "244",
+        "262",
+        "225",
+        "267",
+        "230",
+        "242",
+        "232",
+        "256",
+        "249"
       ],
       "total_columnas": 14,
-      "hoja": "13 Mes ocurrencia y dia"
+      "hoja": "Mes ocurrencia y dia"
     },
     "2020": {
       "tipo": "simple",
       "encabezados": [
-        "Día de ocurrencia",
-        "Total",
-        "Enero",
-        "Febrero",
-        "Marzo",
-        "Abril",
-        "Mayo",
-        "Junio",
-        "Julio",
-        "Agosto",
-        "Septiembre",
-        "Octubre",
-        "Noviembre",
-        "Diciembre"
+        "5",
+        "82",
+        "6",
+        "10",
+        "6",
+        "2",
+        "8",
+        "8",
+        "6",
+        "9",
+        "6",
+        "10",
+        "7",
+        "4"
       ],
       "total_columnas": 14,
-      "hoja": "13 Mes ocurrencia y dia"
+      "hoja": "Mes de ocurrencia y dia"
     },
     "2021": {
       "tipo": "simple",
       "encabezados": [
-        "Día de ocurrencia",
-        "Total",
-        "Enero",
-        "Febrero",
-        "Marzo",
-        "Abril",
-        "Mayo",
-        "Junio",
-        "Julio",
-        "Agosto",
-        "Septiembre",
-        "Octubre",
-        "Noviembre",
-        "Diciembre"
+        "5",
+        "3910",
+        "287",
+        "250",
+        "251",
+        "332",
+        "283",
+        "313",
+        "354",
+        "354",
+        "554",
+        "398",
+        "277",
+        "257"
       ],
       "total_columnas": 14,
       "hoja": "13 Mes ocurrencia y dia"
@@ -2214,20 +1823,20 @@
     "2022": {
       "tipo": "simple",
       "encabezados": [
-        "Día de ocurrencia",
-        "Total",
-        "Enero",
-        "Febrero",
-        "Marzo",
-        "Abril",
-        "Mayo",
-        "Junio",
-        "Julio",
-        "Agosto",
-        "Septiembre",
-        "Octubre",
-        "Noviembre",
-        "Diciembre"
+        "5",
+        "3170",
+        "301",
+        "282",
+        "302",
+        "227",
+        "236",
+        "273",
+        "242",
+        "273",
+        "232",
+        "272",
+        "244",
+        "286"
       ],
       "total_columnas": 14,
       "hoja": "13 Mes ocurrencia y dia"
@@ -2277,147 +1886,80 @@
   },
   "Defunciones por pueblo de pertenencia del difunto(a), según departamento de residencia": {
     "2015": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Pueblo de pertenencia": [
-          "Maya",
-          "Garífuna",
-          "Xinka",
-          "Mestizo / Ladino",
-          "Otro",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 9,
-      "hoja": "14 Pueblo pertenencia y depto"
+      "tipo": "simple",
+      "encabezados": [
+        "Todos los departamentos",
+        "Todas las áreas",
+        "Otro",
+        "581"
+      ],
+      "total_columnas": 4,
+      "hoja": "Área geo. pueblo y depto"
     },
     "2016": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Pueblo de pertenencia": [
-          "Maya",
-          "Garífuna",
-          "Xinka",
-          "Mestizo / Ladino",
-          "Otro",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 9,
-      "hoja": "14 Pueblo pertenencia y depto"
+      "tipo": "simple",
+      "encabezados": [
+        "Todos los departamentos",
+        "Todas las áreas",
+        "Otro",
+        "868"
+      ],
+      "total_columnas": 4,
+      "hoja": "Área geo. pueblo y depto"
     },
     "2017": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Pueblo de pertenencia": [
-          "Maya",
-          "Garífuna",
-          "Xinka",
-          "Mestizo / Ladino",
-          "Otro",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 9,
-      "hoja": "14 Pueblo pertenencia y depto"
+      "tipo": "simple",
+      "encabezados": [
+        "Todos los departamentos",
+        "Todas las áreas",
+        "Otro",
+        "1019"
+      ],
+      "total_columnas": 4,
+      "hoja": "Área geo. pueblo y depto"
     },
     "2018": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Pueblo de pertenencia": [
-          "Maya",
-          "Garífuna",
-          "Xinka",
-          "Mestizo / Ladino",
-          "Otro",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 9,
-      "hoja": "14 Pueblo pertenencia y depto"
+      "tipo": "simple",
+      "encabezados": [
+        "Guatemala",
+        "San José Pinula",
+        "317",
+        "6"
+      ],
+      "total_columnas": 4,
+      "hoja": "Pueblo pertenencia y depto"
     },
     "2019": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Pueblo de pertenencia": [
-          "Maya",
-          "Garífuna",
-          "Xinka",
-          "Mestizo / Ladino",
-          "Otro",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 9,
-      "hoja": "14 Pueblo pertenencia y depto"
-    },
-    "2020": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Pueblo de pertenencia": [
-          "Maya",
-          "Garífuna",
-          "Xinka",
-          "Mestizo / Ladino",
-          "Otro",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 9,
-      "hoja": "14 Pueblo pertenencia y depto"
+      "tipo": "simple",
+      "encabezados": [
+        "Guatemala",
+        "San José Pinula",
+        "367",
+        "1"
+      ],
+      "total_columnas": 4,
+      "hoja": "Pueblo pertenencia y depto"
     },
     "2021": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Pueblo de pertenencia": [
-          "Maya",
-          "Garífuna",
-          "Xinka",
-          "Mestizo / Ladino",
-          "Otro",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 9,
+      "tipo": "simple",
+      "encabezados": [
+        "Guatemala",
+        "San José Pinula",
+        "502",
+        "2"
+      ],
+      "total_columnas": 4,
       "hoja": "14 Pueblo pertenencia y depto"
     },
     "2022": {
-      "tipo": "agrupado",
-      "encabezados": {
-        "Departamento de residencia": "Departamento de residencia",
-        "Municipio": "Municipio",
-        "Total": "Total",
-        "Pueblo de pertenencia": [
-          "Maya",
-          "Garífuna",
-          "Xinka",
-          "Mestizo / Ladino",
-          "Otro",
-          "Ignorado"
-        ]
-      },
-      "total_columnas": 9,
+      "tipo": "simple",
+      "encabezados": [
+        "Guatemala",
+        "San José Pinula",
+        "429",
+        "4"
+      ],
+      "total_columnas": 4,
       "hoja": "14 Pueblo pertenencia y depto"
     },
     "2023": {
@@ -2461,83 +2003,71 @@
     "2015": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de ocurrencia",
-        "Causas externas (Código CIE-10)",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "Complicaciones de la atención médica y quirúrgica (Y40-Y84)",
+        "32",
+        "15",
+        "17"
       ],
       "total_columnas": 5,
-      "hoja": "15 Causa externa sexo y depto."
+      "hoja": "Causa externa sexo y depto."
     },
     "2016": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de ocurrencia",
-        "Causas externas (Código CIE-10)",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "Complicaciones de la atención médica y quirúrgica (Y40-Y84)",
+        "53",
+        "28",
+        "25"
       ],
       "total_columnas": 5,
-      "hoja": "15 Causa externa sexo y depto."
+      "hoja": "Causa externa sexo y depto."
     },
     "2017": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de ocurrencia",
-        "Causas externas (Código CIE-10)",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "Complicaciones de la atención médica y quirúrgica (Y40-Y84)",
+        "20",
+        "12",
+        "8"
       ],
       "total_columnas": 5,
-      "hoja": "15 Causa externa sexo y depto."
+      "hoja": "Causa externa sexo y depto."
     },
     "2018": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de ocurrencia",
-        "Causas externas (Código CIE-10)",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "Complicaciones de la atención médica y quirúrgica (Y40-Y84)",
+        "23",
+        "8",
+        "15"
       ],
       "total_columnas": 5,
-      "hoja": "15 Causa externa sexo y depto."
+      "hoja": "Causa externa sexo y depto."
     },
     "2019": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de ocurrencia",
-        "Causas externas (Código CIE-10)",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "Complicaciones de la atención médica y quirúrgica (Y40-Y84)",
+        "29",
+        "13",
+        "16"
       ],
       "total_columnas": 5,
-      "hoja": "15 Causa externa sexo y depto."
-    },
-    "2020": {
-      "tipo": "simple",
-      "encabezados": [
-        "Departamento de ocurrencia",
-        "Causas externas (Código CIE-10)",
-        "Total",
-        "Hombres",
-        "Mujeres"
-      ],
-      "total_columnas": 5,
-      "hoja": "15 Causa externa sexo y depto."
+      "hoja": "Causa externa sexo y depto."
     },
     "2021": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de ocurrencia",
-        "Causas externas (Código CIE-10)",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "Complicaciones de la atención médica y quirúrgica (Y40-Y84)",
+        "65",
+        "35",
+        "30"
       ],
       "total_columnas": 5,
       "hoja": "15 Causa externa sexo y depto."
@@ -2545,11 +2075,11 @@
     "2022": {
       "tipo": "simple",
       "encabezados": [
-        "Departamento de ocurrencia",
-        "Causas externas (Código CIE-10)",
-        "Total",
-        "Hombres",
-        "Mujeres"
+        "Todos los departamentos",
+        "Complicaciones de la atención médica y quirúrgica (Y40-Y84)",
+        "86",
+        "46",
+        "40"
       ],
       "total_columnas": 5,
       "hoja": "15 Causa externa sexo y depto."
