@@ -4,68 +4,86 @@ import json
 import os
 from pathlib import Path
 
-def detectar_tipo_encabezado(ws):
+def detectar_tipo_encabezado(ws, año=None):
     """
     Detecta si una tabla tiene encabezados simples (1 fila) o agrupados (2 filas).
     
+    Para 2022 y anteriores: revisa filas 1-2
+    Para 2023 y posteriores: revisa filas 8-9
+    
     Lógica:
-    - AGRUPADA: Fila 9 tiene sub-encabezados donde fila 8 está vacío (estructura multi-nivel)
-    - SIMPLE: Fila 8 tiene encabezados, fila 9 tiene DATOS (números, texto de datos)
+    - AGRUPADA: Fila N+1 tiene sub-encabezados donde fila N está vacío (estructura multi-nivel)
+    - SIMPLE: Fila N tiene encabezados, fila N+1 tiene DATOS (números, texto de datos)
     
     Retorna: 'simple' o 'agrupado'
     """
+    # Determinar filas según año
+    if año and int(año) <= 2022:
+        fila_principal = 1
+        fila_secundaria = 2
+    else:
+        fila_principal = 8
+        fila_secundaria = 9
+    
     # Contar patrones
-    fila8_con_valor = 0
-    fila9_con_valor = 0
-    fila9_donde_fila8_vacio = 0  # Columnas donde 8 es vacío pero 9 tiene valor (sub-encabezados)
-    fila9_donde_fila8_lleno = 0   # Columnas donde ambas tienen valor
+    fila_principal_con_valor = 0
+    fila_secundaria_con_valor = 0
+    fila_secundaria_donde_principal_vacio = 0  # Columnas donde principal es vacío pero secundaria tiene valor (sub-encabezados)
+    fila_secundaria_donde_principal_lleno = 0   # Columnas donde ambas tienen valor
     
     for col in range(1, 100):
         col_letter = get_column_letter(col)
-        valor8 = ws[f'{col_letter}8'].value
-        valor9 = ws[f'{col_letter}9'].value
+        valor_principal = ws[f'{col_letter}{fila_principal}'].value
+        valor_secundaria = ws[f'{col_letter}{fila_secundaria}'].value
         
-        if valor8:
-            fila8_con_valor += 1
+        if valor_principal:
+            fila_principal_con_valor += 1
         
-        if valor9:
-            fila9_con_valor += 1
+        if valor_secundaria:
+            fila_secundaria_con_valor += 1
             
-            if not valor8:
-                # Fila 9 tiene valor pero fila 8 no -> es sub-encabezado
-                fila9_donde_fila8_vacio += 1
+            if not valor_principal:
+                # Fila secundaria tiene valor pero principal no -> es sub-encabezado
+                fila_secundaria_donde_principal_vacio += 1
             else:
                 # Ambas filas tienen valor -> probablemente es dato
-                fila9_donde_fila8_lleno += 1
+                fila_secundaria_donde_principal_lleno += 1
         
         # Parar si llegamos a muchas columnas vacías
-        if col > 50 and fila8_con_valor == 0 and fila9_con_valor == 0:
+        if col > 50 and fila_principal_con_valor == 0 and fila_secundaria_con_valor == 0:
             break
     
     # Decisión mejorada:
-    # Si hay SUB-encabezados (fila9_donde_fila8_vacio > 0), es agrupado
-    # BUT: Si la mayoría de fila9 contiene valores donde fila8 TAMBIÉN tiene valores,
+    # Si hay SUB-encabezados, es agrupado
+    # BUT: Si la mayoría de fila_secundaria contiene valores donde fila_principal TAMBIÉN tiene valores,
     #      probablemente sea datos simples (no sub-encabezados)
     
-    if fila9_donde_fila8_vacio > 0 and fila9_donde_fila8_vacio >= fila9_donde_fila8_lleno:
+    if fila_secundaria_donde_principal_vacio > 0 and fila_secundaria_donde_principal_vacio >= fila_secundaria_donde_principal_lleno:
         # Hay sub-encabezados y son más o igual que datos
         return 'agrupado'
     else:
-        # Fila 9 probablemente tiene datos, no sub-encabezados
+        # Fila secundaria probablemente tiene datos, no sub-encabezados
         return 'simple'
 
-def leer_encabezados_simple(ws, max_col=50):
+def leer_encabezados_simple(ws, max_col=50, año=None):
     """
     Lee encabezados de una tabla simple (una sola fila).
-    Los encabezados están SOLO en fila 8.
-    Fila 9 contiene datos, no sub-encabezados.
+    
+    Para 2022 y anteriores: lee encabezados de fila 1
+    Para 2023 y posteriores: lee encabezados de fila 8
     """
+    # Determinar fila según año
+    if año and int(año) <= 2022:
+        fila = 1
+    else:
+        fila = 8
+    
     encabezados = []
     
     col = 1
     while col <= max_col:
         col_letter = get_column_letter(col)
-        valor = ws[f'{col_letter}8'].value
+        valor = ws[f'{col_letter}{fila}'].value
         
         if not valor:
             break
@@ -76,16 +94,27 @@ def leer_encabezados_simple(ws, max_col=50):
     
     return encabezados
 
-def leer_encabezados_agrupado(ws, max_col=50):
+def leer_encabezados_agrupado(ws, max_col=50, año=None):
     """
     Lee encabezados de una tabla agrupada (dos filas).
-    Los encabezados principales están en fila 8, los sub-encabezados en fila 9.
+    
+    Para 2022 y anteriores: encabezados principales en fila 1, sub-encabezados en fila 2
+    Para 2023 y posteriores: encabezados principales en fila 8, sub-encabezados en fila 9
+    
     Detecta celdas combinadas.
     
     Retorna una estructura armada con título principal y subtítulos:
     - Si tiene subtítulos reales: {"titulo_principal": ["subtitulo1", "subtitulo2"]}
     - Si NO tiene subtítulos: {"titulo_principal": "solo_nombre"}
     """
+    # Determinar filas según año
+    if año and int(año) <= 2022:
+        fila_principal = 1
+        fila_secundaria = 2
+    else:
+        fila_principal = 8
+        fila_secundaria = 9
+    
     estructura = {}
     grupos_con_subtitulos = {}  # Para rastrear si un grupo tiene subtítulos reales
     
@@ -97,10 +126,10 @@ def leer_encabezados_agrupado(ws, max_col=50):
         min_row = rango_combinado.min_row
         max_row = rango_combinado.max_row
         
-        # Si es una celda combinada horizontal en fila 8
-        if min_row == 8 and max_row == 8 and min_col < max_col_rango:
+        # Si es una celda combinada horizontal en fila principal
+        if min_row == fila_principal and max_row == fila_principal and min_col < max_col_rango:
             col_letter = get_column_letter(min_col)
-            valor = ws[f'{col_letter}8'].value
+            valor = ws[f'{col_letter}{fila_principal}'].value
             
             for col in range(min_col, max_col_rango + 1):
                 mapa_combinadas[col] = valor
@@ -110,8 +139,8 @@ def leer_encabezados_agrupado(ws, max_col=50):
     while col <= max_col:
         col_letter = get_column_letter(col)
         
-        valor_principal = ws[f'{col_letter}8'].value
-        valor_secundario = ws[f'{col_letter}9'].value
+        valor_principal = ws[f'{col_letter}{fila_principal}'].value
+        valor_secundario = ws[f'{col_letter}{fila_secundaria}'].value
         
         # Aplicar mapeo de combinadas
         if col in mapa_combinadas:
@@ -157,10 +186,13 @@ def leer_encabezados_agrupado(ws, max_col=50):
     
     return resultado
 
-def extraer_estructura_tabla(archivo_excel, nombre_hoja):
+def extraer_estructura_tabla(archivo_excel, nombre_hoja, año=None):
     """
     Extrae solo la estructura (encabezados) de una tabla.
     Detecta automáticamente si es simple o agrupada.
+    
+    Para 2022 y anteriores: lee de filas 1-2
+    Para 2023 y posteriores: lee de filas 8-9
     
     Retorna para SIMPLE: 
         {'tipo': 'simple', 'encabezados': [...], 'total_columnas': int}
@@ -173,11 +205,11 @@ def extraer_estructura_tabla(archivo_excel, nombre_hoja):
         ws = wb[nombre_hoja]
         
         # Detectar tipo de encabezado
-        tipo = detectar_tipo_encabezado(ws)
+        tipo = detectar_tipo_encabezado(ws, año=año)
         
         # Leer encabezados según tipo
         if tipo == 'agrupado':
-            encabezados = leer_encabezados_agrupado(ws)
+            encabezados = leer_encabezados_agrupado(ws, año=año)
             # Contar total de columnas (suma de subtítulos + strings individuales)
             total_cols = 0
             for valor in encabezados.values():
@@ -186,7 +218,7 @@ def extraer_estructura_tabla(archivo_excel, nombre_hoja):
                 else:  # Es un string sin subtítulos
                     total_cols += 1
         else:
-            encabezados = leer_encabezados_simple(ws)
+            encabezados = leer_encabezados_simple(ws, año=año)
             total_cols = len(encabezados)
         
         wb.close()
@@ -257,8 +289,8 @@ def main():
             if tematica not in estructura_resultado:
                 estructura_resultado[tematica] = {}
             
-            # Extraer estructura
-            estructura = extraer_estructura_tabla(archivo_año, nombre_hoja)
+            # Extraer estructura (pasar el año para detectar la correcta ubicación de encabezados)
+            estructura = extraer_estructura_tabla(archivo_año, nombre_hoja, año=año)
             
             estructura['hoja'] = nombre_hoja
             estructura_resultado[tematica][año] = estructura
