@@ -1,0 +1,2582 @@
+{
+  "Defunciones por año de ocurrencia, según departamento de residencia del difunto(a)": {
+    "2015": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Año de ocurrencia": [
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023"
+        ]
+      },
+      "total_columnas": 6,
+      "hoja": "Serie histórica"
+    },
+    "2016": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Año de ocurrencia": [
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023"
+        ]
+      },
+      "total_columnas": 6,
+      "hoja": "Serie histórica"
+    },
+    "2017": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Año de ocurrencia": [
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023"
+        ]
+      },
+      "total_columnas": 6,
+      "hoja": "Serie histórica"
+    },
+    "2018": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Año de ocurrencia": [
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023"
+        ]
+      },
+      "total_columnas": 6,
+      "hoja": "Serie histórica"
+    },
+    "2019": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Año de ocurrencia": [
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023"
+        ]
+      },
+      "total_columnas": 6,
+      "hoja": "Serie histórica"
+    },
+    "2020": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Año de ocurrencia": [
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023"
+        ]
+      },
+      "total_columnas": 6,
+      "hoja": "Serie histórica"
+    },
+    "2021": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Año de ocurrencia": [
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023"
+        ]
+      },
+      "total_columnas": 6,
+      "hoja": "Serie histórica"
+    },
+    "2022": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Año de ocurrencia": [
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023"
+        ]
+      },
+      "total_columnas": 6,
+      "hoja": "Serie histórica"
+    },
+    "2023": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Año de ocurrencia": [
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023"
+        ]
+      },
+      "total_columnas": 6,
+      "hoja": "Serie histórica"
+    },
+    "2024": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Año de ocurrencia": [
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024"
+        ]
+      },
+      "total_columnas": 6,
+      "hoja": "Cuadro 1"
+    }
+  },
+  "Defunciones por departamento de ocurrencia, según departamento de residencia del difunto(a)": {
+    "2015": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Departamento de ocurrencia": [
+          "Total",
+          "Guatemala",
+          "El Progreso",
+          "Sacatepéquez",
+          "Chimaltenango",
+          "Escuintla",
+          "Santa Rosa",
+          "Sololá",
+          "Totonicapán",
+          "Quetzaltenango",
+          "Suchitepéquez",
+          "Retalhuleu",
+          "San Marcos",
+          "Huehuetenango",
+          "Quiché",
+          "Baja Verapaz",
+          "Alta Verapaz",
+          "Petén",
+          "Izabal",
+          "Zacapa",
+          "Chiquimula",
+          "Jalapa",
+          "Jutiapa"
+        ]
+      },
+      "total_columnas": 24,
+      "hoja": "1 Depto ocurrencia y residencia"
+    },
+    "2016": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Departamento de ocurrencia": [
+          "Total",
+          "Guatemala",
+          "El Progreso",
+          "Sacatepéquez",
+          "Chimaltenango",
+          "Escuintla",
+          "Santa Rosa",
+          "Sololá",
+          "Totonicapán",
+          "Quetzaltenango",
+          "Suchitepéquez",
+          "Retalhuleu",
+          "San Marcos",
+          "Huehuetenango",
+          "Quiché",
+          "Baja Verapaz",
+          "Alta Verapaz",
+          "Petén",
+          "Izabal",
+          "Zacapa",
+          "Chiquimula",
+          "Jalapa",
+          "Jutiapa"
+        ]
+      },
+      "total_columnas": 24,
+      "hoja": "1 Depto ocurrencia y residencia"
+    },
+    "2017": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Departamento de ocurrencia": [
+          "Total",
+          "Guatemala",
+          "El Progreso",
+          "Sacatepéquez",
+          "Chimaltenango",
+          "Escuintla",
+          "Santa Rosa",
+          "Sololá",
+          "Totonicapán",
+          "Quetzaltenango",
+          "Suchitepéquez",
+          "Retalhuleu",
+          "San Marcos",
+          "Huehuetenango",
+          "Quiché",
+          "Baja Verapaz",
+          "Alta Verapaz",
+          "Petén",
+          "Izabal",
+          "Zacapa",
+          "Chiquimula",
+          "Jalapa",
+          "Jutiapa"
+        ]
+      },
+      "total_columnas": 24,
+      "hoja": "1 Depto ocurrencia y residencia"
+    },
+    "2018": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Departamento de ocurrencia": [
+          "Total",
+          "Guatemala",
+          "El Progreso",
+          "Sacatepéquez",
+          "Chimaltenango",
+          "Escuintla",
+          "Santa Rosa",
+          "Sololá",
+          "Totonicapán",
+          "Quetzaltenango",
+          "Suchitepéquez",
+          "Retalhuleu",
+          "San Marcos",
+          "Huehuetenango",
+          "Quiché",
+          "Baja Verapaz",
+          "Alta Verapaz",
+          "Petén",
+          "Izabal",
+          "Zacapa",
+          "Chiquimula",
+          "Jalapa",
+          "Jutiapa"
+        ]
+      },
+      "total_columnas": 24,
+      "hoja": "1 Depto ocurrencia y residencia"
+    },
+    "2019": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Departamento de ocurrencia": [
+          "Total",
+          "Guatemala",
+          "El Progreso",
+          "Sacatepéquez",
+          "Chimaltenango",
+          "Escuintla",
+          "Santa Rosa",
+          "Sololá",
+          "Totonicapán",
+          "Quetzaltenango",
+          "Suchitepéquez",
+          "Retalhuleu",
+          "San Marcos",
+          "Huehuetenango",
+          "Quiché",
+          "Baja Verapaz",
+          "Alta Verapaz",
+          "Petén",
+          "Izabal",
+          "Zacapa",
+          "Chiquimula",
+          "Jalapa",
+          "Jutiapa"
+        ]
+      },
+      "total_columnas": 24,
+      "hoja": "1 Depto ocurrencia y residencia"
+    },
+    "2020": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Departamento de ocurrencia": [
+          "Total",
+          "Guatemala",
+          "El Progreso",
+          "Sacatepéquez",
+          "Chimaltenango",
+          "Escuintla",
+          "Santa Rosa",
+          "Sololá",
+          "Totonicapán",
+          "Quetzaltenango",
+          "Suchitepéquez",
+          "Retalhuleu",
+          "San Marcos",
+          "Huehuetenango",
+          "Quiché",
+          "Baja Verapaz",
+          "Alta Verapaz",
+          "Petén",
+          "Izabal",
+          "Zacapa",
+          "Chiquimula",
+          "Jalapa",
+          "Jutiapa"
+        ]
+      },
+      "total_columnas": 24,
+      "hoja": "1 Depto ocurrencia y residencia"
+    },
+    "2021": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Departamento de ocurrencia": [
+          "Total",
+          "Guatemala",
+          "El Progreso",
+          "Sacatepéquez",
+          "Chimaltenango",
+          "Escuintla",
+          "Santa Rosa",
+          "Sololá",
+          "Totonicapán",
+          "Quetzaltenango",
+          "Suchitepéquez",
+          "Retalhuleu",
+          "San Marcos",
+          "Huehuetenango",
+          "Quiché",
+          "Baja Verapaz",
+          "Alta Verapaz",
+          "Petén",
+          "Izabal",
+          "Zacapa",
+          "Chiquimula",
+          "Jalapa",
+          "Jutiapa"
+        ]
+      },
+      "total_columnas": 24,
+      "hoja": "1 Depto ocurrencia y residencia"
+    },
+    "2022": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Departamento de ocurrencia": [
+          "Total",
+          "Guatemala",
+          "El Progreso",
+          "Sacatepéquez",
+          "Chimaltenango",
+          "Escuintla",
+          "Santa Rosa",
+          "Sololá",
+          "Totonicapán",
+          "Quetzaltenango",
+          "Suchitepéquez",
+          "Retalhuleu",
+          "San Marcos",
+          "Huehuetenango",
+          "Quiché",
+          "Baja Verapaz",
+          "Alta Verapaz",
+          "Petén",
+          "Izabal",
+          "Zacapa",
+          "Chiquimula",
+          "Jalapa",
+          "Jutiapa"
+        ]
+      },
+      "total_columnas": 24,
+      "hoja": "1 Depto ocurrencia y residencia"
+    },
+    "2023": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Departamento de ocurrencia": [
+          "Total",
+          "Guatemala",
+          "El Progreso",
+          "Sacatepéquez",
+          "Chimaltenango",
+          "Escuintla",
+          "Santa Rosa",
+          "Sololá",
+          "Totonicapán",
+          "Quetzaltenango",
+          "Suchitepéquez",
+          "Retalhuleu",
+          "San Marcos",
+          "Huehuetenango",
+          "Quiché",
+          "Baja Verapaz",
+          "Alta Verapaz",
+          "Petén",
+          "Izabal",
+          "Zacapa",
+          "Chiquimula",
+          "Jalapa",
+          "Jutiapa"
+        ]
+      },
+      "total_columnas": 24,
+      "hoja": "1 Depto ocurrencia y residencia"
+    },
+    "2024": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Departamento de ocurrencia": [
+          "Total",
+          "Guatemala",
+          "El Progreso",
+          "Sacatepéquez",
+          "Chimaltenango",
+          "Escuintla",
+          "Santa Rosa",
+          "Sololá",
+          "Totonicapán",
+          "Quetzaltenango",
+          "Suchitepéquez",
+          "Retalhuleu",
+          "San Marcos",
+          "Huehuetenango",
+          "Quiché",
+          "Baja Verapaz",
+          "Alta Verapaz",
+          "Petén",
+          "Izabal",
+          "Zacapa",
+          "Chiquimula",
+          "Jalapa",
+          "Jutiapa"
+        ]
+      },
+      "total_columnas": 24,
+      "hoja": "Cuadro 2"
+    }
+  },
+  "Defunciones por sexo, según departamento de residencia del difunto(a) y edades simples": {
+    "2015": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "2 Depto. sexo y edades simples"
+    },
+    "2016": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "2 Depto. sexo y edades simples"
+    },
+    "2017": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "2 Depto. sexo y edades simples"
+    },
+    "2018": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "2 Depto. sexo y edades simples"
+    },
+    "2019": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "2 Depto. sexo y edades simples"
+    },
+    "2020": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "2 Depto. sexo y edades simples"
+    },
+    "2021": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "2 Depto. sexo y edades simples"
+    },
+    "2022": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "2 Depto. sexo y edades simples"
+    },
+    "2023": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "2 Depto. sexo y edades simples"
+    },
+    "2024": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "Cuadro 3"
+    }
+  },
+  "Defunciones por sexo, según departamento de residencia del difunto(a) y grupos de edad": {
+    "2015": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Grupos de edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "3 Depto. sexo y grupos de edad"
+    },
+    "2016": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Grupos de edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "3 Depto. sexo y grupos de edad"
+    },
+    "2017": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Grupos de edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "3 Depto. sexo y grupos de edad"
+    },
+    "2018": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Grupos de edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "3 Depto. sexo y grupos de edad"
+    },
+    "2019": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Grupos de edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "3 Depto. sexo y grupos de edad"
+    },
+    "2020": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Grupos de edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "3 Depto. sexo y grupos de edad"
+    },
+    "2021": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Grupos de edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "3 Depto. sexo y grupos de edad"
+    },
+    "2022": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Grupos de edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "3 Depto. sexo y grupos de edad"
+    },
+    "2023": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Grupos de edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "3 Depto. sexo y grupos de edad"
+    },
+    "2024": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Grupos de edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "Cuadro 4"
+    }
+  },
+  "Defunciones por sexo, según departamento de residencia del difunto(a), estado civil y grupos de edad": {
+    "2015": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Estado civil",
+        "Grupos de edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "4 Depto sexo estado civil edad"
+    },
+    "2016": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Estado civil",
+        "Grupos de edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "4 Depto sexo estado civil edad"
+    },
+    "2017": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Estado civil",
+        "Grupos de edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "4 Depto sexo estado civil edad"
+    },
+    "2018": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Estado civil",
+        "Grupos de edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "4 Depto sexo estado civil edad"
+    },
+    "2019": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Estado civil",
+        "Grupos de edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "4 Depto sexo estado civil edad"
+    },
+    "2020": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Estado civil",
+        "Grupos de edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "4 Depto sexo estado civil edad"
+    },
+    "2021": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Estado civil",
+        "Grupos de edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "4 Depto sexo estado civil edad"
+    },
+    "2022": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Estado civil",
+        "Grupos de edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "4 Depto sexo estado civil edad"
+    },
+    "2023": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Estado civil",
+        "Grupos de edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "4 Depto sexo estado civil edad"
+    },
+    "2024": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Estado civil",
+        "Grupos de edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "Cuadro 5"
+    }
+  },
+  "Defunciones por sexo, según edad y causas de muerte": {
+    "2015": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "5 Edad sexo y causas de muerte"
+    },
+    "2016": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "5 Edad sexo y causas de muerte"
+    },
+    "2017": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "5 Edad sexo y causas de muerte"
+    },
+    "2018": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "5 Edad sexo y causas de muerte"
+    },
+    "2019": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "5 Edad sexo y causas de muerte"
+    },
+    "2020": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "5 Edad sexo y causas de muerte"
+    },
+    "2021": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "5 Edad sexo y causas de muerte"
+    },
+    "2022": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "5 Edad sexo y causas de muerte"
+    },
+    "2023": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "5 Edad sexo y causas de muerte"
+    },
+    "2024": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "Cuadro 6"
+    }
+  },
+  "Defunciones por sexo, según departamento de residencia del difunto(a) y causas de muerte": {
+    "2015": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "6 Depto sexo y causas de muerte"
+    },
+    "2016": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "6 Depto sexo y causas de muerte"
+    },
+    "2017": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "6 Depto sexo y causas de muerte"
+    },
+    "2018": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "6 Depto sexo y causas de muerte"
+    },
+    "2019": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "6 Depto sexo y causas de muerte"
+    },
+    "2020": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "6 Depto sexo y causas de muerte"
+    },
+    "2021": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "6 Depto sexo y causas de muerte"
+    },
+    "2022": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "6 Depto sexo y causas de muerte"
+    },
+    "2023": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "6 Depto sexo y causas de muerte"
+    },
+    "2024": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "Cuadro 7"
+    }
+  },
+  "Defunciones por tipo de certificación, según departamento y municipio de residencia del difunto(a)": {
+    "2015": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Tipo de certificación": [
+          "Medico",
+          "Paramédico",
+          "Autoridad",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 7,
+      "hoja": "7 Tipo certificación depto mun"
+    },
+    "2016": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Tipo de certificación": [
+          "Medico",
+          "Paramédico",
+          "Autoridad",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 7,
+      "hoja": "7 Tipo certificación depto mun"
+    },
+    "2017": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Tipo de certificación": [
+          "Medico",
+          "Paramédico",
+          "Autoridad",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 7,
+      "hoja": "7 Tipo certificación depto mun"
+    },
+    "2018": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Tipo de certificación": [
+          "Medico",
+          "Paramédico",
+          "Autoridad",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 7,
+      "hoja": "7 Tipo certificación depto mun"
+    },
+    "2019": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Tipo de certificación": [
+          "Medico",
+          "Paramédico",
+          "Autoridad",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 7,
+      "hoja": "7 Tipo certificación depto mun"
+    },
+    "2020": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Tipo de certificación": [
+          "Medico",
+          "Paramédico",
+          "Autoridad",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 7,
+      "hoja": "7 Tipo certificación depto mun"
+    },
+    "2021": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Tipo de certificación": [
+          "Medico",
+          "Paramédico",
+          "Autoridad",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 7,
+      "hoja": "7 Tipo certificación depto mun"
+    },
+    "2022": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Tipo de certificación": [
+          "Medico",
+          "Paramédico",
+          "Autoridad",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 7,
+      "hoja": "7 Tipo certificación depto mun"
+    },
+    "2023": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Tipo de certificación": [
+          "Medico",
+          "Paramédico",
+          "Autoridad",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 7,
+      "hoja": "7 Tipo certificación depto mun"
+    },
+    "2024": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Tipo de certificación": [
+          "Médico",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 5,
+      "hoja": "Cuadro 8"
+    }
+  },
+  "Defunciones por tipo de asistencia recibida, según departamento y municipio de residencia del difunto(a)": {
+    "2015": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Asistencia recibida": [
+          "Médica",
+          "Paramédica",
+          "Comadrona",
+          "Empírica",
+          "Ninguna",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 9,
+      "hoja": "8 Tipo de asistencia depto mun"
+    },
+    "2016": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Asistencia recibida": [
+          "Médica",
+          "Paramédica",
+          "Comadrona",
+          "Empírica",
+          "Ninguna",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 9,
+      "hoja": "8 Tipo de asistencia depto mun"
+    },
+    "2017": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Asistencia recibida": [
+          "Médica",
+          "Paramédica",
+          "Comadrona",
+          "Empírica",
+          "Ninguna",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 9,
+      "hoja": "8 Tipo de asistencia depto mun"
+    },
+    "2018": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Asistencia recibida": [
+          "Médica",
+          "Paramédica",
+          "Comadrona",
+          "Empírica",
+          "Ninguna",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 9,
+      "hoja": "8 Tipo de asistencia depto mun"
+    },
+    "2019": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Asistencia recibida": [
+          "Médica",
+          "Paramédica",
+          "Comadrona",
+          "Empírica",
+          "Ninguna",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 9,
+      "hoja": "8 Tipo de asistencia depto mun"
+    },
+    "2020": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Asistencia recibida": [
+          "Médica",
+          "Paramédica",
+          "Comadrona",
+          "Empírica",
+          "Ninguna",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 9,
+      "hoja": "8 Tipo de asistencia depto mun"
+    },
+    "2021": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Asistencia recibida": [
+          "Médica",
+          "Paramédica",
+          "Comadrona",
+          "Empírica",
+          "Ninguna",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 9,
+      "hoja": "8 Tipo de asistencia depto mun"
+    },
+    "2022": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Asistencia recibida": [
+          "Médica",
+          "Paramédica",
+          "Comadrona",
+          "Empírica",
+          "Ninguna",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 9,
+      "hoja": "8 Tipo de asistencia depto mun"
+    },
+    "2023": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Asistencia recibida": [
+          "Médica",
+          "Paramédica",
+          "Comadrona",
+          "Empírica",
+          "Ninguna",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 9,
+      "hoja": "8 Tipo de asistencia depto mun"
+    },
+    "2024": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Asistencia recibida": [
+          "Médica",
+          "Paramédica",
+          "Comadrona",
+          "Empírica",
+          "Ninguna",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 9,
+      "hoja": "Cuadro 9"
+    }
+  },
+  "Defunciones por lugar de ocurrencia, según departamento y municipio de residencia del difunto(a)": {
+    "2015": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Lugar de ocurrencia": [
+          "Hospital Público",
+          "Hospital Privado",
+          "Centro de Salud",
+          "Seguro Social",
+          "Vía Pública",
+          "Domicilio",
+          "Otro",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 11,
+      "hoja": "9 Lugar ocurrencia depto y mun"
+    },
+    "2016": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Lugar de ocurrencia": [
+          "Hospital Público",
+          "Hospital Privado",
+          "Centro de Salud",
+          "Seguro Social",
+          "Vía Pública",
+          "Domicilio",
+          "Otro",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 11,
+      "hoja": "9 Lugar ocurrencia depto y mun"
+    },
+    "2017": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Lugar de ocurrencia": [
+          "Hospital Público",
+          "Hospital Privado",
+          "Centro de Salud",
+          "Seguro Social",
+          "Vía Pública",
+          "Domicilio",
+          "Otro",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 11,
+      "hoja": "9 Lugar ocurrencia depto y mun"
+    },
+    "2018": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Lugar de ocurrencia": [
+          "Hospital Público",
+          "Hospital Privado",
+          "Centro de Salud",
+          "Seguro Social",
+          "Vía Pública",
+          "Domicilio",
+          "Otro",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 11,
+      "hoja": "9 Lugar ocurrencia depto y mun"
+    },
+    "2019": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Lugar de ocurrencia": [
+          "Hospital Público",
+          "Hospital Privado",
+          "Centro de Salud",
+          "Seguro Social",
+          "Vía Pública",
+          "Domicilio",
+          "Otro",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 11,
+      "hoja": "9 Lugar ocurrencia depto y mun"
+    },
+    "2020": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Lugar de ocurrencia": [
+          "Hospital Público",
+          "Hospital Privado",
+          "Centro de Salud",
+          "Seguro Social",
+          "Vía Pública",
+          "Domicilio",
+          "Otro",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 11,
+      "hoja": "9 Lugar ocurrencia depto y mun"
+    },
+    "2021": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Lugar de ocurrencia": [
+          "Hospital Público",
+          "Hospital Privado",
+          "Centro de Salud",
+          "Seguro Social",
+          "Vía Pública",
+          "Domicilio",
+          "Otro",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 11,
+      "hoja": "9 Lugar ocurrencia depto y mun"
+    },
+    "2022": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Lugar de ocurrencia": [
+          "Hospital Público",
+          "Hospital Privado",
+          "Centro de Salud",
+          "Seguro Social",
+          "Vía Pública",
+          "Domicilio",
+          "Otro",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 11,
+      "hoja": "9 Lugar ocurrencia depto y mun"
+    },
+    "2023": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Lugar de ocurrencia": [
+          "Hospital Público",
+          "Hospital Privado",
+          "Centro de Salud",
+          "Seguro Social",
+          "Vía Pública",
+          "Domicilio",
+          "Otro",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 11,
+      "hoja": "9 Lugar ocurrencia depto y mun"
+    },
+    "2024": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Lugar de ocurrencia": [
+          "Hospital Público",
+          "Hospital Privado",
+          "Centro de Salud",
+          "Seguro Social",
+          "Vía Pública",
+          "Domicilio",
+          "Otro",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 11,
+      "hoja": "Cuadro 10"
+    }
+  },
+  "Defunciones infantiles, neonatales y postneonatales por sexo, según departamento de residencia y edad": {
+    "2015": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Tipo de defunción",
+        "Edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "10 Infan neonatal post neonatal"
+    },
+    "2016": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Tipo de defunción",
+        "Edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "10 Infan neonatal post neonatal"
+    },
+    "2017": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Tipo de defunción",
+        "Edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "10 Infan neonatal post neonatal"
+    },
+    "2018": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Tipo de defunción",
+        "Edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "10 Infan neonatal post neonatal"
+    },
+    "2019": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Tipo de defunción",
+        "Edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "10 Infan neonatal post neonatal"
+    },
+    "2020": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Tipo de defunción",
+        "Edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "10 Infan neonatal post neonatal"
+    },
+    "2021": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Tipo de defunción",
+        "Edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "10 Infan neonatal post neonatal"
+    },
+    "2022": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Tipo de defunción",
+        "Edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "10 Infan neonatal post neonatal"
+    },
+    "2023": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Tipo de defunción",
+        "Edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "10 Infan neonatal post neonatal"
+    },
+    "2024": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de residencia",
+        "Tipo de defunción",
+        "Edad",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "Cuadro 11"
+    }
+  },
+  "Defunciones neonatales por sexo, según edad y causas de muerte": {
+    "2015": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "11 Neonatal sexo causa muerte"
+    },
+    "2016": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "11 Neonatal sexo causa muerte"
+    },
+    "2017": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "11 Neonatal sexo causa muerte"
+    },
+    "2018": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "11 Neonatal sexo causa muerte"
+    },
+    "2019": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "11 Neonatal sexo causa muerte"
+    },
+    "2020": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "11 Neonatal sexo causa muerte"
+    },
+    "2021": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "11 Neonatal sexo causa muerte"
+    },
+    "2022": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "11 Neonatal sexo causa muerte"
+    },
+    "2023": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "11 Neonatal sexo causa muerte"
+    },
+    "2024": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "Cuadro 12"
+    }
+  },
+  "Defunciones postneonatales por sexo, según edad y causas de muerte": {
+    "2015": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "12 Post neonatal sexo y causas"
+    },
+    "2016": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "12 Post neonatal sexo y causas"
+    },
+    "2017": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "12 Post neonatal sexo y causas"
+    },
+    "2018": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "12 Post neonatal sexo y causas"
+    },
+    "2019": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "12 Post neonatal sexo y causas"
+    },
+    "2020": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "12 Post neonatal sexo y causas"
+    },
+    "2021": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "12 Post neonatal sexo y causas"
+    },
+    "2022": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "12 Post neonatal sexo y causas"
+    },
+    "2023": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "12 Post neonatal sexo y causas"
+    },
+    "2024": {
+      "tipo": "simple",
+      "encabezados": [
+        "Edad",
+        "Código CIE-10",
+        "Causa de muerte",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 6,
+      "hoja": "Cuadro 13"
+    }
+  },
+  "Defunciones por mes de ocurrencia,  según día de ocurrencia": {
+    "2015": {
+      "tipo": "simple",
+      "encabezados": [
+        "Día de ocurrencia",
+        "Total",
+        "Enero",
+        "Febrero",
+        "Marzo",
+        "Abril",
+        "Mayo",
+        "Junio",
+        "Julio",
+        "Agosto",
+        "Septiembre",
+        "Octubre",
+        "Noviembre",
+        "Diciembre"
+      ],
+      "total_columnas": 14,
+      "hoja": "13 Mes ocurrencia y dia"
+    },
+    "2016": {
+      "tipo": "simple",
+      "encabezados": [
+        "Día de ocurrencia",
+        "Total",
+        "Enero",
+        "Febrero",
+        "Marzo",
+        "Abril",
+        "Mayo",
+        "Junio",
+        "Julio",
+        "Agosto",
+        "Septiembre",
+        "Octubre",
+        "Noviembre",
+        "Diciembre"
+      ],
+      "total_columnas": 14,
+      "hoja": "13 Mes ocurrencia y dia"
+    },
+    "2017": {
+      "tipo": "simple",
+      "encabezados": [
+        "Día de ocurrencia",
+        "Total",
+        "Enero",
+        "Febrero",
+        "Marzo",
+        "Abril",
+        "Mayo",
+        "Junio",
+        "Julio",
+        "Agosto",
+        "Septiembre",
+        "Octubre",
+        "Noviembre",
+        "Diciembre"
+      ],
+      "total_columnas": 14,
+      "hoja": "13 Mes ocurrencia y dia"
+    },
+    "2018": {
+      "tipo": "simple",
+      "encabezados": [
+        "Día de ocurrencia",
+        "Total",
+        "Enero",
+        "Febrero",
+        "Marzo",
+        "Abril",
+        "Mayo",
+        "Junio",
+        "Julio",
+        "Agosto",
+        "Septiembre",
+        "Octubre",
+        "Noviembre",
+        "Diciembre"
+      ],
+      "total_columnas": 14,
+      "hoja": "13 Mes ocurrencia y dia"
+    },
+    "2019": {
+      "tipo": "simple",
+      "encabezados": [
+        "Día de ocurrencia",
+        "Total",
+        "Enero",
+        "Febrero",
+        "Marzo",
+        "Abril",
+        "Mayo",
+        "Junio",
+        "Julio",
+        "Agosto",
+        "Septiembre",
+        "Octubre",
+        "Noviembre",
+        "Diciembre"
+      ],
+      "total_columnas": 14,
+      "hoja": "13 Mes ocurrencia y dia"
+    },
+    "2020": {
+      "tipo": "simple",
+      "encabezados": [
+        "Día de ocurrencia",
+        "Total",
+        "Enero",
+        "Febrero",
+        "Marzo",
+        "Abril",
+        "Mayo",
+        "Junio",
+        "Julio",
+        "Agosto",
+        "Septiembre",
+        "Octubre",
+        "Noviembre",
+        "Diciembre"
+      ],
+      "total_columnas": 14,
+      "hoja": "13 Mes ocurrencia y dia"
+    },
+    "2021": {
+      "tipo": "simple",
+      "encabezados": [
+        "Día de ocurrencia",
+        "Total",
+        "Enero",
+        "Febrero",
+        "Marzo",
+        "Abril",
+        "Mayo",
+        "Junio",
+        "Julio",
+        "Agosto",
+        "Septiembre",
+        "Octubre",
+        "Noviembre",
+        "Diciembre"
+      ],
+      "total_columnas": 14,
+      "hoja": "13 Mes ocurrencia y dia"
+    },
+    "2022": {
+      "tipo": "simple",
+      "encabezados": [
+        "Día de ocurrencia",
+        "Total",
+        "Enero",
+        "Febrero",
+        "Marzo",
+        "Abril",
+        "Mayo",
+        "Junio",
+        "Julio",
+        "Agosto",
+        "Septiembre",
+        "Octubre",
+        "Noviembre",
+        "Diciembre"
+      ],
+      "total_columnas": 14,
+      "hoja": "13 Mes ocurrencia y dia"
+    },
+    "2023": {
+      "tipo": "simple",
+      "encabezados": [
+        "Día de ocurrencia",
+        "Total",
+        "Enero",
+        "Febrero",
+        "Marzo",
+        "Abril",
+        "Mayo",
+        "Junio",
+        "Julio",
+        "Agosto",
+        "Septiembre",
+        "Octubre",
+        "Noviembre",
+        "Diciembre"
+      ],
+      "total_columnas": 14,
+      "hoja": "13 Mes ocurrencia y dia"
+    },
+    "2024": {
+      "tipo": "simple",
+      "encabezados": [
+        "Día de ocurrencia",
+        "Total",
+        "Enero",
+        "Febrero",
+        "Marzo",
+        "Abril",
+        "Mayo",
+        "Junio",
+        "Julio",
+        "Agosto",
+        "Septiembre",
+        "Octubre",
+        "Noviembre",
+        "Diciembre"
+      ],
+      "total_columnas": 14,
+      "hoja": "Cuadro 14"
+    }
+  },
+  "Defunciones por pueblo de pertenencia del difunto(a), según departamento de residencia": {
+    "2015": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Pueblo de pertenencia": [
+          "Maya",
+          "Garífuna",
+          "Xinka",
+          "Mestizo / Ladino",
+          "Otro",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 9,
+      "hoja": "14 Pueblo pertenencia y depto"
+    },
+    "2016": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Pueblo de pertenencia": [
+          "Maya",
+          "Garífuna",
+          "Xinka",
+          "Mestizo / Ladino",
+          "Otro",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 9,
+      "hoja": "14 Pueblo pertenencia y depto"
+    },
+    "2017": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Pueblo de pertenencia": [
+          "Maya",
+          "Garífuna",
+          "Xinka",
+          "Mestizo / Ladino",
+          "Otro",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 9,
+      "hoja": "14 Pueblo pertenencia y depto"
+    },
+    "2018": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Pueblo de pertenencia": [
+          "Maya",
+          "Garífuna",
+          "Xinka",
+          "Mestizo / Ladino",
+          "Otro",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 9,
+      "hoja": "14 Pueblo pertenencia y depto"
+    },
+    "2019": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Pueblo de pertenencia": [
+          "Maya",
+          "Garífuna",
+          "Xinka",
+          "Mestizo / Ladino",
+          "Otro",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 9,
+      "hoja": "14 Pueblo pertenencia y depto"
+    },
+    "2020": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Pueblo de pertenencia": [
+          "Maya",
+          "Garífuna",
+          "Xinka",
+          "Mestizo / Ladino",
+          "Otro",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 9,
+      "hoja": "14 Pueblo pertenencia y depto"
+    },
+    "2021": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Pueblo de pertenencia": [
+          "Maya",
+          "Garífuna",
+          "Xinka",
+          "Mestizo / Ladino",
+          "Otro",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 9,
+      "hoja": "14 Pueblo pertenencia y depto"
+    },
+    "2022": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Pueblo de pertenencia": [
+          "Maya",
+          "Garífuna",
+          "Xinka",
+          "Mestizo / Ladino",
+          "Otro",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 9,
+      "hoja": "14 Pueblo pertenencia y depto"
+    },
+    "2023": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Pueblo de pertenencia": [
+          "Maya",
+          "Garífuna",
+          "Xinka",
+          "Mestizo / Ladino",
+          "Otro",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 9,
+      "hoja": "14 Pueblo pertenencia y depto"
+    },
+    "2024": {
+      "tipo": "agrupado",
+      "encabezados": {
+        "Departamento de residencia": "Departamento de residencia",
+        "Municipio": "Municipio",
+        "Total": "Total",
+        "Pueblo de pertenencia": [
+          "Maya",
+          "Garífuna",
+          "Xinka",
+          "Mestizo / Ladino",
+          "Otro",
+          "Ignorado"
+        ]
+      },
+      "total_columnas": 9,
+      "hoja": "Cuadro 15"
+    }
+  },
+  "Defunciones por causas externas y sexo, según departamento de residencia del difunto(a)": {
+    "2015": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de ocurrencia",
+        "Causas externas (Código CIE-10)",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "15 Causa externa sexo y depto."
+    },
+    "2016": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de ocurrencia",
+        "Causas externas (Código CIE-10)",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "15 Causa externa sexo y depto."
+    },
+    "2017": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de ocurrencia",
+        "Causas externas (Código CIE-10)",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "15 Causa externa sexo y depto."
+    },
+    "2018": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de ocurrencia",
+        "Causas externas (Código CIE-10)",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "15 Causa externa sexo y depto."
+    },
+    "2019": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de ocurrencia",
+        "Causas externas (Código CIE-10)",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "15 Causa externa sexo y depto."
+    },
+    "2020": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de ocurrencia",
+        "Causas externas (Código CIE-10)",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "15 Causa externa sexo y depto."
+    },
+    "2021": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de ocurrencia",
+        "Causas externas (Código CIE-10)",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "15 Causa externa sexo y depto."
+    },
+    "2022": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de ocurrencia",
+        "Causas externas (Código CIE-10)",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "15 Causa externa sexo y depto."
+    },
+    "2023": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de ocurrencia",
+        "Causas externas (Código CIE-10)",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "15 Causa externa sexo y depto."
+    },
+    "2024": {
+      "tipo": "simple",
+      "encabezados": [
+        "Departamento de ocurrencia",
+        "Causas externas (Código CIE-10)",
+        "Total",
+        "Hombres",
+        "Mujeres"
+      ],
+      "total_columnas": 5,
+      "hoja": "Cuadro 16"
+    }
+  }
+}
