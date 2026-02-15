@@ -59,3 +59,5 @@ Para obtener la descripción textual de estos códigos, **se debe realizar un JO
 1.  **Año de Ocurrencia (`Añoocu`):** Esta variable presenta inconsistencias o ausencia de datos en los archivos anteriores a **2015**.
     * *Estrategia:* Para análisis de series temporales completos (2013-2022), se recomienda validar contra `Añoreg` o imputar con cuidado en años previos a 2015.
 2.  **Caudef.descrip:** Esta variable debe ser **inutilizada** del dataframe consolidado durante la fase de pre-procesamiento para evitar ruido, ya que está vacía en la mayoría de los años.
+3.  **Edadif (codigo 999):** El valor 999 indica edad no declarada y debe ser tratado como dato faltante antes de calcular estadisticas o distribuciones.
+4.  **Areag (Área geográfica):** Esta variable presenta **alto porcentaje de datos faltantes** y no se recomienda para análisis exploratorio. Usar en su lugar **`Depreg`** (Departamento de registro) o **`Depocu`** (Departamento de ocurrencia) para análisis geográficos.
