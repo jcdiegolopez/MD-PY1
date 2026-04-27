@@ -30,3 +30,7 @@ Thumbs.db
 desktop.ini
 *.tmp
 *.bak
+
+# Artefactos generados
+artifacts/
+AGENTS.md
