@@ -34,3 +34,4 @@ desktop.ini
 # Artefactos generados
 artifacts/
 AGENTS.md
+catboost_info/
