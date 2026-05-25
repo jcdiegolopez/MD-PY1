@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Análisis de Mortalidad en Guatemala 2013–2022</title>
+<style>
+  :root {
+    --azul-oscuro: #1565C0;
+    --azul-medio: #1976D2;
+    --azul-claro: #42A5F5;
+    --azul-fondo: #E3F2FD;
+    --naranja: #E65100;
+    --naranja-claro: #FFF3E0;
+    --verde: #2E7D32;
+    --verde-claro: #E8F5E9;
+    --gris-fondo: #F5F7FA;
+    --gris-borde: #DEE2E6;
+    --texto: #212529;
+    --texto-suave: #6C757D;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: var(--gris-fondo);
+    color: var(--texto);
+    line-height: 1.7;
+    font-size: 15px;
+  }
+  .container { max-width: 960px; margin: 0 auto; padding: 0 20px 60px; }
+
+  /* ── HEADER ─────────────────────────────────────── */
+  .hero {
+    background: linear-gradient(135deg, #0D47A1 0%, #1565C0 50%, #1976D2 100%);
+    color: white; padding: 60px 20px 50px; text-align: center;
+  }
+  .hero h1 { font-size: 2.2rem; font-weight: 700; letter-spacing: -0.5px; margin-bottom: 12px; }
+  .hero p.subtitulo { font-size: 1.1rem; opacity: 0.9; margin-bottom: 28px; }
+  .badges { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+  .badge {
+    background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px; padding: 5px 16px; font-size: 0.82rem; font-weight: 500;
+  }
+
+  /* ── SECCIONES ───────────────────────────────────── */
+  .section { margin-top: 40px; }
+  .section-title {
+    font-size: 1.5rem; font-weight: 700; color: var(--azul-oscuro);
+    border-left: 5px solid var(--azul-claro); padding-left: 14px;
+    margin-bottom: 20px;
+  }
+  .subsection-title {
+    font-size: 1.1rem; font-weight: 600; color: var(--azul-medio);
+    margin: 28px 0 12px; border-bottom: 2px solid var(--azul-fondo); padding-bottom: 6px;
+  }
+
+  /* ── CARDS ───────────────────────────────────────── */
+  .card {
+    background: white; border-radius: 12px; padding: 28px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07); margin-bottom: 24px;
+    border: 1px solid var(--gris-borde);
+  }
+
+  /* ── CHIP DE CELDA ────────────────────────────────── */
+  .cell-ref {
+    display: inline-block; background: var(--naranja-claro); color: var(--naranja);
+    border: 1px solid #FFCC80; border-radius: 12px; padding: 2px 10px;
+    font-size: 0.75rem; font-weight: 600; margin-left: 8px; vertical-align: middle;
+  }
+
+  /* ── IMÁGENES ─────────────────────────────────────── */
+  .img-wrap { margin: 18px 0; }
+  .img-wrap img {
+    width: 100%; border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    border: 1px solid var(--gris-borde);
+  }
+  .img-caption {
+    font-size: 0.82rem; color: var(--texto-suave); text-align: center;
+    margin-top: 8px; font-style: italic;
+  }
+  .img-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 18px 0; }
+  .img-grid .img-wrap { margin: 0; }
+
+  /* ── TABLAS ──────────────────────────────────────── */
+  table { width: 100%; border-collapse: collapse; font-size: 0.88rem; margin: 14px 0; }
+  th {
+    background: var(--azul-oscuro); color: white; padding: 10px 14px;
+    text-align: left; font-weight: 600;
+  }
+  td { padding: 9px 14px; border-bottom: 1px solid var(--gris-borde); }
+  tr:nth-child(even) td { background: var(--gris-fondo); }
+  tr:hover td { background: var(--azul-fondo); }
+  .best td { background: #E8F5E9 !important; font-weight: 600; }
+
+  /* ── HIGHLIGHT BOXES ─────────────────────────────── */
+  .callout {
+    border-radius: 8px; padding: 16px 20px; margin: 16px 0;
+    border-left: 4px solid;
+  }
+  .callout.info { background: var(--azul-fondo); border-color: var(--azul-claro); }
+  .callout.warn { background: #FFF8E1; border-color: #FFC107; }
+  .callout.success { background: var(--verde-claro); border-color: var(--verde); }
+  .callout.danger { background: #FFEBEE; border-color: #E53935; }
+  .callout strong { display: block; margin-bottom: 4px; }
+
+  /* ── HIPÓTESIS ────────────────────────────────────── */
+  .hipotesis-card {
+    border-left: 4px solid var(--azul-claro); background: white;
+    border-radius: 0 10px 10px 0; padding: 20px 24px; margin-bottom: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+  .hipotesis-num {
+    font-size: 0.75rem; font-weight: 700; color: var(--azul-claro);
+    text-transform: uppercase; letter-spacing: 1px;
+  }
+  .hipotesis-title { font-size: 1.05rem; font-weight: 700; margin: 4px 0 10px; color: var(--azul-oscuro); }
+
+  /* ── MÉTRICAS GRANDES ─────────────────────────────── */
+  .metrics-row { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; margin: 16px 0; }
+  .metric-box {
+    background: var(--azul-fondo); border-radius: 10px; padding: 18px;
+    text-align: center; border: 1px solid #BBDEFB;
+  }
+  .metric-val { font-size: 1.9rem; font-weight: 800; color: var(--azul-oscuro); }
+  .metric-lbl { font-size: 0.78rem; color: var(--texto-suave); margin-top: 4px; }
+
+  /* ── MODELO CARD ────────────────────────────────────── */
+  .modelo-sweep {
+    border: 1px solid var(--gris-borde); border-radius: 10px;
+    overflow: hidden; margin-bottom: 24px;
+  }
+  .modelo-sweep-header {
+    background: var(--azul-oscuro); color: white;
+    padding: 12px 20px; font-weight: 700; font-size: 1rem;
+  }
+  .modelo-sweep-body { padding: 20px; background: white; }
+
+  /* ── TOC ────────────────────────────────────────────── */
+  .toc { background: white; border-radius: 12px; padding: 24px; margin: 30px 0; border: 1px solid var(--gris-borde); }
+  .toc h3 { color: var(--azul-oscuro); margin-bottom: 12px; font-size: 1rem; }
+  .toc ol { padding-left: 20px; }
+  .toc li { margin-bottom: 4px; }
+  .toc a { color: var(--azul-medio); text-decoration: none; }
+  .toc a:hover { text-decoration: underline; }
+
+  /* ── FOOTER ─────────────────────────────────────── */
+  .footer { text-align: center; color: var(--texto-suave); font-size: 0.82rem; margin-top: 50px; padding-top: 20px; border-top: 1px solid var(--gris-borde); }
+
+  @media (max-width: 640px) {
+    .img-grid { grid-template-columns: 1fr; }
+    .metrics-row { grid-template-columns: 1fr; }
+    .hero h1 { font-size: 1.6rem; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════════════════ HERO -->
+<div class="hero">
+  <h1>Análisis de Mortalidad en Guatemala<br>2013 – 2022</h1>
+  <p class="subtitulo">EDA, Clustering y Modelado Predictivo de Causa de Muerte<br>
+  a partir de registros del Instituto Nacional de Estadística (INE)</p>
+  <div class="badges">
+    <span class="badge">878 136 registros</span>
+    <span class="badge">10 años (2013–2022)</span>
+    <span class="badge">22 departamentos</span>
+    <span class="badge">Python · Scikit-learn · CatBoost · XGBoost</span>
+    <span class="badge">Clasificación multiclase · 9 grupos</span>
+  </div>
+</div>
+
+<div class="container">
+
+<!-- ══════════════════════════════════ TOC -->
+<div class="toc">
+  <h3>Contenido</h3>
+  <ol>
+    <li><a href="#dataset">El Dataset</a></li>
+    <li><a href="#eda">Análisis Exploratorio (EDA) — 5 Hipótesis</a></li>
+    <li><a href="#clustering">Clustering K-Means</a></li>
+    <li><a href="#modelado">Modelado Predictivo</a>
+      <ol>
+        <li><a href="#objetivo">Variable objetivo: 34 clases → 9 macro-grupos</a></li>
+        <li><a href="#justif-vars">Justificación estadística de variables</a></li>
+        <li><a href="#split">División train/test 80/20</a></li>
+        <li><a href="#preprocesamiento">Preprocesamiento</a></li>
+        <li><a href="#modelos">Modelos y barrido de hiperparámetros</a></li>
+        <li><a href="#comparacion">Comparación final</a></li>
+        <li><a href="#fase8">Análisis profundo del mejor modelo</a></li>
+      </ol>
+    </li>
+    <li><a href="#conclusiones">Conclusiones</a></li>
+  </ol>
+</div>
+
+<!-- ══════════════════════════════════ SECCIÓN 1: DATASET -->
+<div id="dataset" class="section">
+  <h2 class="section-title">1. El Dataset</h2>
+  <div class="card">
+    <p>Guatemala registra cada año sus <strong>estadísticas vitales de defunciones</strong> a través del INE. Para este proyecto se consolidaron los archivos anuales en formato SPSS (<code>.sav</code>) de 2013 a 2022, resultando en un único dataset de:</p>
+    <div class="metrics-row">
+      <div class="metric-box"><div class="metric-val">878 136</div><div class="metric-lbl">Registros de defunciones</div></div>
+      <div class="metric-box"><div class="metric-val">10</div><div class="metric-lbl">Años continuos (2013–2022)</div></div>
+      <div class="metric-box"><div class="metric-val">30</div><div class="metric-lbl">Variables por registro</div></div>
+    </div>
+    <p>Cada fila corresponde a <em>una defunción</em> e incluye información como la causa de muerte en código CIE-10, edad, sexo, departamento, municipio, ocupación, escolaridad y fecha de ocurrencia.</p>
+
+    <div class="callout info">
+      <strong>Contexto epidemiológico</strong>
+      Guatemala enfrenta una "doble carga de mortalidad": por un lado, causas propias del subdesarrollo (desnutrición, enfermedades infecciosas); por otro, una epidemia de violencia donde el 88 % de las víctimas de homicidio son hombres. Este proyecto busca <em>cuantificar y visualizar</em> esa dualidad con datos.
+    </div>
+
+    <h3 class="subsection-title">Distribución de registros por año</h3>
+    <div class="img-wrap">
+      <img src="html_assets/eda_cell15_a2e2fc84_2.png" alt="Defunciones por año">
+      <p class="img-caption">Registros de defunciones por año. Se observa el fuerte aumento en 2020–2021 producto de la pandemia de COVID-19. <span class="cell-ref">Celda 15</span></p>
+    </div>
+
+    <h3 class="subsection-title">Distribución por sexo y departamento</h3>
+    <div class="img-grid">
+      <div class="img-wrap">
+        <img src="html_assets/eda_cell15_a2e2fc84_5.png" alt="Defunciones por sexo">
+        <p class="img-caption">Distribución por sexo. Los hombres representan consistentemente más del 60 % de las defunciones. <span class="cell-ref">Celda 15</span></p>
+      </div>
+      <div class="img-wrap">
+        <img src="html_assets/eda_cell15_a2e2fc84_8.png" alt="Defunciones por departamento">
+        <p class="img-caption">Defunciones por departamento. Guatemala (capital) y Huehuetenango concentran los mayores volúmenes. <span class="cell-ref">Celda 15</span></p>
+      </div>
+    </div>
+
+    <h3 class="subsection-title">Correlación entre variables numéricas</h3>
+    <div class="img-wrap">
+      <img src="html_assets/eda_cell18_a1f134eb_2.png" alt="Matriz de correlación">
+      <p class="img-caption">Matriz de correlación entre variables numéricas del dataset. <span class="cell-ref">Celda 18</span></p>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════ SECCIÓN 2: EDA / HIPÓTESIS -->
+<div id="eda" class="section">
+  <h2 class="section-title">2. Análisis Exploratorio — 5 Hipótesis Validadas</h2>
+
+  <div class="callout info">
+    El EDA fue diseñado para responder preguntas epidemiológicas concretas sobre la mortalidad en Guatemala. Se plantearon 5 hipótesis y se validaron estadísticamente con los datos del INE 2013–2022.
+  </div>
+
+  <!-- H1 -->
+  <div class="hipotesis-card">
+    <div class="hipotesis-num">Hipótesis 1</div>
+    <div class="hipotesis-title">La Brecha de Género: pico de mortalidad masculina en adultos jóvenes <span class="cell-ref">Celda 23</span></div>
+    <p><strong>Pregunta:</strong> ¿La curva de mortalidad de los hombres muestra un "pico anómalo" entre los 18 y 35 años que no aparece en las mujeres?</p>
+    <div class="img-wrap">
+      <img src="html_assets/eda_cell23_77a2f97b_1.png" alt="Curva de mortalidad por edad y sexo">
+      <p class="img-caption">Curva de mortalidad por edad separada por sexo. El eje X es la edad; el eje Y muestra el número de defunciones acumuladas en los 10 años. <span class="cell-ref">Celda 23</span></p>
+    </div>
+    <div class="callout success">
+      <strong>✓ Hipótesis CONFIRMADA</strong>
+      La curva masculina muestra un pico visible y estadísticamente significativo entre los 18 y 35 años. Este pico es completamente inexistente en la curva femenina. Es la "huella digital" de los homicidios y accidentes de tráfico, causas que afectan desproporcionadamente a hombres jóvenes. Tras ese pico, ambas curvas siguen el patrón esperado de enfermedades crónicas en la vejez.
+    </div>
+  </div>
+
+  <!-- H2 -->
+  <div class="hipotesis-card">
+    <div class="hipotesis-num">Hipótesis 2</div>
+    <div class="hipotesis-title">La Geografía del Peligro: violencia concentrada en el Oriente y la Capital <span class="cell-ref">Celdas 27–29</span></div>
+    <p><strong>Pregunta:</strong> ¿Los departamentos de la Región Metropolitana y Oriente tienen porcentajes de muertes por causas externas significativamente más altos?</p>
+    <div class="img-wrap">
+      <img src="html_assets/eda_cell27_06116fc0_1.png" alt="Causas externas por región">
+      <p class="img-caption">Porcentaje de muertes por causas externas por región geográfica de Guatemala. <span class="cell-ref">Celda 27</span></p>
+    </div>
+    <div class="img-wrap">
+      <img src="html_assets/eda_cell29_ca70f5f5_1.png" alt="Heatmap de causas externas por departamento">
+      <p class="img-caption">Ranking de departamentos por carga de causas externas. Los colores más oscuros indican mayor proporción de muertes violentas. <span class="cell-ref">Celda 29</span></p>
+    </div>
+    <div class="callout success">
+      <strong>✓ Hipótesis CONFIRMADA</strong>
+      Escuintla, Guatemala y Chiquimula lideran consistentemente la proporción de muertes por causas externas. El Altiplano Occidental (Huehuetenango, Quiché, Totonicapán) tiene distribuciones invertidas: dominan las causas infecciosas y nutricionales. Esta polarización geográfica es estructural —no cambia significativamente entre años.
+    </div>
+  </div>
+
+  <!-- H3 -->
+  <div class="hipotesis-card">
+    <div class="hipotesis-num">Hipótesis 3</div>
+    <div class="hipotesis-title">Persistencia de la Mortalidad Infantil por Causas Prevenibles <span class="cell-ref">Celda 33</span></div>
+    <p><strong>Pregunta:</strong> ¿La mortalidad en menores de 5 años sigue dominada por enfermedades infecciosas y nutricionales?</p>
+    <div class="img-wrap">
+      <img src="html_assets/eda_cell33_5fef23f2_1.png" alt="Comparación mortalidad niños vs jóvenes">
+      <p class="img-caption">Comparación de patrones de mortalidad: niños (0–5 años) vs. adultos jóvenes (18–35 años). Los paneles muestran la distribución de causas de muerte en cada grupo etario. <span class="cell-ref">Celda 33</span></p>
+    </div>
+    <div class="callout success">
+      <strong>✓ Hipótesis CONFIRMADA</strong>
+      Los niños de 0 a 5 años mueren mayoritariamente por causas perinatales (complicaciones al nacer), enfermedades infecciosas respiratorias e intestinales. Esto contrasta radicalmente con los adultos jóvenes, donde las causas externas (homicidio, accidentes) dominan. Los dos extremos representan la "doble carga" epidemiológica de Guatemala: problemas del subdesarrollo (niñez) y problemas de violencia (adultez).
+    </div>
+  </div>
+
+  <!-- H4 -->
+  <div class="hipotesis-card">
+    <div class="hipotesis-num">Hipótesis 4</div>
+    <div class="hipotesis-title">Concentración de Muertes Violentas en Fin de Semana <span class="cell-ref">Celda 39</span></div>
+    <p><strong>Pregunta:</strong> ¿Los sábados y domingos registran más muertes por causas externas que los días laborales?</p>
+    <div class="img-wrap">
+      <img src="html_assets/eda_cell39_f7781fa1_1.png" alt="Mortalidad por día de semana">
+      <p class="img-caption">Patrones de mortalidad por día de la semana, separados por tipo de causa. Los subplots muestran distintas categorías de defunción. <span class="cell-ref">Celda 39</span></p>
+    </div>
+    <div class="callout success">
+      <strong>✓ Hipótesis CONFIRMADA</strong>
+      Las muertes por causas externas —especialmente homicidios y accidentes de tránsito— muestran una concentración estadísticamente significativa en sábado y domingo. Las causas naturales (enfermedades crónicas) no presentan este patrón, lo que confirma que el efecto es específico de las muertes violentas. Este hallazgo tiene implicaciones directas para la asignación de recursos de emergencias y seguridad.
+    </div>
+  </div>
+
+  <!-- H5 -->
+  <div class="hipotesis-card">
+    <div class="hipotesis-num">Hipótesis 5</div>
+    <div class="hipotesis-title">La Anomalía Pandémica 2020–2021 <span class="cell-ref">Celda 44</span></div>
+    <p><strong>Pregunta:</strong> ¿Los años 2020 y 2021 muestran un exceso de mortalidad visible y un desplazamiento hacia causas respiratorias?</p>
+    <div class="img-wrap">
+      <img src="html_assets/eda_cell44_1381aa5b_1.png" alt="Anomalía pandémica 2020-2021">
+      <p class="img-caption">Visualización del impacto pandémico. Los cuatro paneles muestran: exceso de mortalidad total, evolución de causas respiratorias, comparativa de meses críticos y tendencia anual. <span class="cell-ref">Celda 44</span></p>
+    </div>
+    <div class="callout success">
+      <strong>✓ Hipótesis CONFIRMADA</strong>
+      2020 y 2021 rompen claramente la tendencia estable de la década. El volumen total de defunciones salta de ~85 000 anuales a 96 000 (2020) y 118 000 (2021). Las enfermedades respiratorias —que incluyen COVID-19 bajo los códigos U07 y J— se convierten temporalmente en la primera causa de muerte, desplazando a las cardiovasculares. 2022 muestra una recuperación parcial, aunque no regresa a los niveles pre-pandemia.
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════ SECCIÓN 3: CLUSTERING -->
+<div id="clustering" class="section">
+  <h2 class="section-title">3. Segmentación: Clustering K-Means</h2>
+  <div class="card">
+    <p>Tras validar las 5 hipótesis, se aplicó un algoritmo de <strong>K-Means</strong> para identificar automáticamente grupos de defunciones con perfiles similares, sin usar etiquetas predefinidas.</p>
+
+    <h3 class="subsection-title">Determinación del número óptimo de clusters <span class="cell-ref">Celda 49</span></h3>
+    <div class="img-wrap">
+      <img src="html_assets/eda_cell49_d12c30d9_1.png" alt="Elbow method">
+      <p class="img-caption">Método del codo (Elbow Method): inercia del modelo en función del número de clusters k. El "codo" marca el punto donde agregar más clusters ya no reduce significativamente la varianza interna. <span class="cell-ref">Celda 49</span></p>
+    </div>
+    <div class="callout info">
+      <strong>¿Por qué el método del codo?</strong>
+      K-Means requiere que el analista defina cuántos grupos (k) crear. El método del codo calcula la "inercia" (suma de distancias al centroide) para valores crecientes de k. Cuando la curva deja de caer bruscamente, ese punto es el número óptimo: agregar más clusters da retornos decrecientes.
+    </div>
+
+    <h3 class="subsection-title">Visualización de los clusters resultantes <span class="cell-ref">Celda 52</span></h3>
+    <div class="img-grid">
+      <div class="img-wrap">
+        <img src="html_assets/eda_cell52_dcc6e750_1.png" alt="Visualización clusters 1">
+        <p class="img-caption">Proyección PCA de los clusters K-Means. Cada punto es una defunción; el color indica el cluster asignado. <span class="cell-ref">Celda 52</span></p>
+      </div>
+      <div class="img-wrap">
+        <img src="html_assets/eda_cell52_dcc6e750_3.png" alt="Visualización clusters 2">
+        <p class="img-caption">Perfil demográfico de cada cluster: distribución de edad, sexo y causa por grupo. <span class="cell-ref">Celda 52</span></p>
+      </div>
+    </div>
+    <div class="callout success">
+      <strong>Perfiles de los clusters</strong>
+      El clustering confirmó los dos perfiles opuestos del marco teórico: un cluster de <strong>muertes por causas externas en hombres jóvenes</strong> (adultos 18–40, masculino, departamentos del Oriente) y un cluster de <strong>muertes por causas naturales en adultos mayores</strong> (>65 años, ambos sexos, enfermedades crónicas). Adicionalmente emergió un cluster de <strong>mortalidad infantil/perinatal</strong> y otro asociado al <strong>impacto COVID-19</strong> en 2020–2021.
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════ SECCIÓN 4: MODELADO PREDICTIVO -->
+<div id="modelado" class="section">
+  <h2 class="section-title">4. Modelado Predictivo</h2>
+
+  <div class="callout warn">
+    <strong>¿Qué se predice?</strong>
+    El modelo recibe <em>solo variables demográficas y temporales</em> (edad, sexo, departamento, mes, ocupación, escolaridad, etc.) y debe predecir en cuál de los 9 grupos de causas de muerte cae el registro. La variable de causa de muerte real (<code>Caudef</code>) se excluye completamente de los inputs para evitar fuga de información.
+  </div>
+
+  <!-- 4.1 VARIABLE OBJETIVO -->
+  <div id="objetivo">
+    <h3 class="subsection-title">4.1 Variable objetivo: de 34 clases a 9 macro-grupos <span class="cell-ref">Celdas 10–18</span></h3>
+    <div class="card">
+      <p>El dataset contiene <strong>34 categorías CIE-10</strong> distintas. Entrenar directamente con 34 clases produce un Balanced Accuracy de apenas ~0.22 porque muchas comparten el mismo perfil demográfico (ej: <em>Hipertensiva</em>, <em>Isquémica del corazón</em> y <em>Cerebrovascular</em> afectan todas a adultos mayores de ambos sexos).</p>
+
+      <p>La solución: <strong>consolidar en 9 macro-grupos epidemiológicamente coherentes</strong>, donde cada grupo tenga un perfil demográfico diferenciado que el modelo pueda aprender.</p>
+
+      <table>
+        <thead><tr><th>Macro-grupo</th><th>Clases CIE-10 incluidas</th><th>Perfil demográfico</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Cardiovasculares</strong></td><td>Hipertensiva, Isquémica, Cerebrovascular, Otras circulatorias</td><td>Adultos mayores, ambos sexos</td></tr>
+          <tr><td><strong>Causas externas</strong></td><td>Homicidio, Accidentes de tránsito, Suicidio, Accidentes no intencionales</td><td>Hombres jóvenes (18–35)</td></tr>
+          <tr><td><strong>Infecciosas/Respiratorias</strong></td><td>Infecciosas, Neumonía/influenza, EPOC, Otras respiratorias</td><td>Niños y adultos mayores</td></tr>
+          <tr><td><strong>Endocrinas/Metabólicas</strong></td><td>Diabetes y trastornos metabólicos</td><td>Adultos >40, mayor en mujeres</td></tr>
+          <tr><td><strong>Digestivas/Genitourinarias</strong></td><td>Cirrosis hepática, Nefritis, Apendicitis, Otras digestivas</td><td>Adultos medios, hombres (cirrosis)</td></tr>
+          <tr><td><strong>Neoplasias</strong></td><td>Cáncer, Sangre e inmunidad</td><td>Adultos mayores, ambos sexos</td></tr>
+          <tr><td><strong>Materno/Perinatal</strong></td><td>Perinatales, Congénitas, Embarazo/parto</td><td>Recién nacidos y mujeres en edad reproductiva</td></tr>
+          <tr><td><strong>Mal definidas</strong></td><td>R98 (sin asistencia), R99 (causa no especificada), Senilidad, Síntomas inespecíficos</td><td>Perfil mixto, señal de calidad del dato</td></tr>
+          <tr><td><strong>Otras</strong></td><td>Nervioso, Trastornos mentales, Otros capítulos</td><td>Heterogéneo</td></tr>
+        </tbody>
+      </table>
+
+      <div class="callout success">
+        <strong>Resultado de la consolidación</strong>
+        Al pasar de 34 a 9 macro-grupos el Balanced Accuracy promedio sube de 0.22 a ~0.38, un incremento del 73 %. El modelo ahora puede distinguir entre grupos que tienen "firmas demográficas" claras: un recién nacido que muere pertenece casi seguramente a <em>Materno/Perinatal</em>; un hombre joven tiene alta probabilidad de estar en <em>Causas externas</em>.
+      </div>
+    </div>
+  </div>
+
+  <!-- 4.2 JUSTIFICACIÓN DE VARIABLES -->
+  <div id="justif-vars">
+    <h3 class="subsection-title">4.2 Justificación estadística de las variables predictoras <span class="cell-ref">Celdas 40–41</span></h3>
+    <div class="card">
+      <p>Antes de entrenar cualquier modelo, se verificó que cada variable tiene <em>asociación estadísticamente significativa</em> con la variable objetivo. Para las variables categóricas se usó el <strong>test Chi-cuadrado</strong> (χ²):</p>
+
+      <table>
+        <thead><tr><th>Variable</th><th>Estadístico χ²</th><th>p-valor</th><th>Conclusión</th></tr></thead>
+        <tbody>
+          <tr><td>Escolaridad</td><td>75 586</td><td>0.000</td><td>✓ Muy alta asociación</td></tr>
+          <tr><td>Ocupación</td><td>55 249</td><td>0.000</td><td>✓ Muy alta asociación</td></tr>
+          <tr><td>Departamento</td><td>39 597</td><td>0.000</td><td>✓ Alta asociación</td></tr>
+          <tr><td>Sexo</td><td>20 044</td><td>0.000</td><td>✓ Alta asociación</td></tr>
+          <tr><td>Estado civil</td><td>19 628</td><td>0.000</td><td>✓ Alta asociación</td></tr>
+        </tbody>
+      </table>
+
+      <p style="margin-top:12px">Un p-valor de 0.000 significa que la probabilidad de que la asociación sea aleatoria es prácticamente nula. <strong>Todas las variables tienen asociación significativa con la causa de muerte.</strong></p>
+
+      <div class="img-wrap">
+        <img src="html_assets/model_cell41_justif-plots_0.png" alt="Distribución de edad y sexo por macro-grupo">
+        <p class="img-caption">Izquierda: distribución de edad para los 5 macro-grupos más frecuentes. Las curvas tienen formas muy distintas: Materno/Perinatal se concentra en edad 0, Cardiovasculares en adultos mayores, Causas Externas en adultos jóvenes. Derecha: proporción de sexo por macro-grupo — Causas Externas tiene ~75% hombres mientras Materno/Perinatal es casi 100% femenino. <span class="cell-ref">Celda 41</span></p>
+      </div>
+
+      <div class="callout info">
+        <strong>¿Por qué escolaridad tiene el χ² más alto?</strong>
+        La escolaridad es un proxy del nivel socioeconómico, el cual determina acceso a diagnóstico, tipo de ocupación y riesgo de exposición a violencia. Una persona sin escolaridad que muere tiene alta probabilidad de pertenecer a <em>Infecciosas</em> o <em>Mal_definidas</em> (escasos recursos para certificación médica); una persona con educación superior tiene más probabilidad de estar en <em>Neoplasias</em> (diagnóstico formal de cáncer).
+      </div>
+    </div>
+  </div>
+
+  <!-- 4.3 SPLIT -->
+  <div id="split">
+    <h3 class="subsection-title">4.3 División train/test 80/20 estratificada <span class="cell-ref">Celda 19–20</span></h3>
+    <div class="card">
+      <p>El dataset se dividió en dos particiones exclusivas:</p>
+      <div class="metrics-row">
+        <div class="metric-box"><div class="metric-val">702 508</div><div class="metric-lbl">Registros de entrenamiento (80 %)</div></div>
+        <div class="metric-box"><div class="metric-val">175 628</div><div class="metric-lbl">Registros de prueba (20 %)</div></div>
+        <div class="metric-box"><div class="metric-val">9</div><div class="metric-lbl">Clases exactamente representadas en ambas</div></div>
+      </div>
+      <p style="margin-top:14px">Se usó <strong>muestreo estratificado</strong> (<code>stratify=y_macro</code>), lo que garantiza que la proporción de cada macro-grupo sea idéntica en entrenamiento y prueba. Esto es fundamental cuando las clases están desbalanceadas (ej: <em>Otras</em> tiene solo 3.2 % del total).</p>
+      <div class="callout info">
+        <strong>¿Por qué solo train/test y no train/validación/test?</strong>
+        La selección de hiperparámetros se realiza mediante <strong>validación cruzada de 5 folds (CV=5)</strong> sobre el conjunto de entrenamiento. Esto es estadísticamente más robusto que un split de validación fijo: usa 5 evaluaciones distintas del modelo y su media tiene menor varianza. Por eso no se necesita un conjunto de validación separado.
+      </div>
+    </div>
+  </div>
+
+  <!-- 4.4 PREPROCESAMIENTO -->
+  <div id="preprocesamiento">
+    <h3 class="subsection-title">4.4 Preprocesamiento y pipeline <span class="cell-ref">Celda 21–23</span></h3>
+    <div class="card">
+      <table>
+        <thead><tr><th>Tipo de variable</th><th>Variables</th><th>Transformaciones</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><strong>Numéricas</strong></td>
+            <td>edad, mes, día, año, es_fin_semana</td>
+            <td>SimpleImputer (mediana) → StandardScaler</td>
+          </tr>
+          <tr>
+            <td><strong>Categóricas</strong></td>
+            <td>sexo, departamento, municipio, estado civil, escolaridad, ocupación, grupo_edad</td>
+            <td>SimpleImputer (moda) → OneHotEncoder</td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="margin-top:12px"><strong>Feature engineering:</strong> se creó la variable <code>grupo_edad</code> que agrupa la edad en 5 rangos epidemiológicamente significativos:</p>
+      <ul style="margin: 10px 0 0 20px; line-height:2">
+        <li><strong>0–5:</strong> mortalidad infantil/neonatal</li>
+        <li><strong>6–17:</strong> adolescentes (mortalidad baja, causas externas emergentes)</li>
+        <li><strong>18–35:</strong> adultos jóvenes — pico de violencia en hombres</li>
+        <li><strong>36–64:</strong> enfermedades crónicas y digestivas</li>
+        <li><strong>65+:</strong> cardiovasculares, neoplasias, endocrinas</li>
+      </ul>
+      <div class="callout warn">
+        <strong>Nota sobre fuga de información</strong>
+        La variable <code>Caudef</code> (código CIE-10 original, fuente directa de la etiqueta) está completamente excluida del modelo. Si se incluyera, el modelo "aprendería" la respuesta directamente desde su origen, invalidando el ejercicio.
+      </div>
+    </div>
+  </div>
+
+  <!-- 4.5 MODELOS Y BARRIDO -->
+  <div id="modelos">
+    <h3 class="subsection-title">4.5 Modelos y barrido de hiperparámetros</h3>
+    <div class="card">
+      <p>Se evaluaron <strong>5 algoritmos</strong>, todos dentro de un Pipeline (preprocesamiento + clasificador) para garantizar que no haya fuga de datos entre folds de CV. El barrido de hiperparámetros usa una <em>muestra estratificada de 60 000 registros</em> del conjunto de entrenamiento para mayor velocidad; el modelo ganador se reentrena sobre el 100 % del train.</p>
+    </div>
+
+    <!-- Baseline: LR -->
+    <div class="modelo-sweep">
+      <div class="modelo-sweep-header">Modelo 1 — Regresión Logística (Baseline) <span style="float:right;font-weight:400;font-size:0.85rem">Celda 24–25</span></div>
+      <div class="modelo-sweep-body">
+        <p>La regresión logística multinomial es lineal: traza un hiperplano de decisión en el espacio de features. Su rol es establecer un <em>piso de referencia</em>: si los modelos complejos no la superan, algo está mal.</p>
+        <table>
+          <thead><tr><th>Métrica</th><th>Valor en Test</th></tr></thead>
+          <tbody>
+            <tr><td>Accuracy</td><td>0.3568</td></tr>
+            <tr><td>Balanced Accuracy</td><td>0.3618</td></tr>
+            <tr><td>Macro F1</td><td>0.3293</td></tr>
+          </tbody>
+        </table>
+        <p style="margin-top:10px">Sorprendentemente, la LR obtiene mejores métricas que el Árbol de Decisión. Esto se debe a que el preprocesamiento OneHotEncoder convierte las variables en un espacio de alta dimensionalidad donde los hiperplanos lineales pueden capturar parte de la estructura.</p>
+      </div>
+    </div>
+
+    <!-- DT -->
+    <div class="modelo-sweep">
+      <div class="modelo-sweep-header">Modelo 2 — Árbol de Decisión: barrido de 3 configuraciones <span style="float:right;font-weight:400;font-size:0.85rem">Celdas 26–28</span></div>
+      <div class="modelo-sweep-body">
+        <p>Se probaron 3 configuraciones variando la <strong>profundidad máxima del árbol</strong> y el criterio de split:</p>
+        <table>
+          <thead><tr><th>Config</th><th>max_depth</th><th>min_samples_leaf</th><th>criterion</th><th>CV Bal-Acc</th><th>Std</th></tr></thead>
+          <tbody>
+            <tr class="best"><td>DT-v2 (medium) ✓</td><td>10</td><td>5</td><td>gini</td><td><strong>0.3154</strong></td><td>±0.0038</td></tr>
+            <tr><td>DT-v1 (shallow)</td><td>5</td><td>10</td><td>gini</td><td>0.3144</td><td>±0.0030</td></tr>
+            <tr><td>DT-v3 (deep)</td><td>20</td><td>1</td><td>entropy</td><td>0.2650</td><td>±0.0057</td></tr>
+          </tbody>
+        </table>
+        <div class="img-wrap">
+          <img src="html_assets/model_cell27_dt-sweep-cel_1.png" alt="Barrido DT">
+          <p class="img-caption">Comparación de las 3 configuraciones del Árbol de Decisión en CV=5. La barra roja indica la mejor configuración; las barras de error muestran la variabilidad entre folds. <span class="cell-ref">Celda 27</span></p>
+        </div>
+        <div class="callout danger">
+          <strong>Hallazgo: DT-v3 (árbol profundo) es el peor de los tres</strong>
+          Con max_depth=20 y min_samples_leaf=1 el árbol puede dividirse hasta tener hojas con un solo registro. Esto es overfitting clásico: el árbol <em>memoriza</em> los datos de entrenamiento de cada fold en lugar de aprender patrones generalizables. El árbol superficial (v1) obtiene casi el mismo resultado que el mediano (v2), lo que sugiere que la profundidad 5–10 es suficiente para capturar la estructura.
+        </div>
+        <p><strong>Resultado en test (config v2):</strong> Balanced Accuracy = 0.3203, Macro F1 = 0.2991</p>
+      </div>
+    </div>
+
+    <!-- RF -->
+    <div class="modelo-sweep">
+      <div class="modelo-sweep-header">Modelo 3 — Random Forest: barrido de 3 versiones <span style="float:right;font-weight:400;font-size:0.85rem">Celdas 29–32</span></div>
+      <div class="modelo-sweep-body">
+        <p>Random Forest entrena múltiples árboles sobre subconjuntos aleatorios de datos y features, luego vota por mayoría. Es más robusto que un solo árbol porque el ruido de cada árbol se cancela en el conjunto.</p>
+        <table>
+          <thead><tr><th>Config</th><th>n_estimators</th><th>max_depth</th><th>CV Bal-Acc</th><th>Std</th></tr></thead>
+          <tbody>
+            <tr class="best"><td>RF-v3 (sin límite) ✓</td><td>200</td><td>None</td><td><strong>0.3539</strong></td><td>±0.0025</td></tr>
+            <tr><td>RF-v2 (depth=20)</td><td>100</td><td>20</td><td>0.3496</td><td>±0.0029</td></tr>
+            <tr><td>RF-v1 (depth=10)</td><td>50</td><td>10</td><td>0.3310</td><td>±0.0042</td></tr>
+          </tbody>
+        </table>
+        <div class="callout info">
+          <strong>Patrón monotónico: más árboles y mayor profundidad → mejor resultado</strong>
+          A diferencia del árbol individual, el RF sin límite de profundidad no sufre overfitting visible porque el promedio de muchos árboles sobreajustados en datos distintos converge a una buena estimación. La tendencia creciente de CV Bal-Acc confirma que 200 árboles no es suficiente para saturar la capacidad del modelo.
+        </div>
+        <p><strong>Resultado en test (RF-v3):</strong> Accuracy = 0.3760, Balanced Accuracy = 0.3760, Macro F1 = 0.3428</p>
+      </div>
+    </div>
+
+    <!-- XGBoost -->
+    <div class="modelo-sweep">
+      <div class="modelo-sweep-header">Modelo 4 — XGBoost: barrido de 3 configuraciones <span style="float:right;font-weight:400;font-size:0.85rem">Celdas 33–35</span></div>
+      <div class="modelo-sweep-body">
+        <p>XGBoost (eXtreme Gradient Boosting) construye los árboles de forma <em>secuencial</em>: cada nuevo árbol corrige los errores del anterior. Es generalmente el algoritmo más potente en datasets tabulares y ganó múltiples competencias de Kaggle.</p>
+        <table>
+          <thead><tr><th>Config</th><th>n_estimators</th><th>max_depth</th><th>learning_rate</th><th>CV Bal-Acc</th><th>Std</th></tr></thead>
+          <tbody>
+            <tr class="best"><td>XGB-v2 (medium) ✓</td><td>200</td><td>6</td><td>0.05</td><td><strong>0.3569</strong></td><td>±0.0021</td></tr>
+            <tr><td>XGB-v1 (light)</td><td>100</td><td>4</td><td>0.10</td><td>0.3503</td><td>±0.0020</td></tr>
+            <tr><td>XGB-v3 (deep)</td><td>300</td><td>8</td><td>0.01</td><td>0.3473</td><td>±0.0023</td></tr>
+          </tbody>
+        </table>
+        <div class="img-wrap">
+          <img src="html_assets/model_cell34_xgb-sweep-ce_1.png" alt="Barrido XGBoost">
+          <p class="img-caption">Comparación de las 3 configuraciones de XGBoost en CV=5. XGB-v2 (200 estimadores, profundidad 6, lr=0.05) es el ganador claro. <span class="cell-ref">Celda 34</span></p>
+        </div>
+        <div class="callout warn">
+          <strong>La "paradoja XGBoost"</strong>
+          XGBoost-v2 obtuvo el <em>mejor CV en el sweep</em> (0.3569 &gt; RF 0.3539), pero en el test final <strong>Random Forest lo supera</strong> (RF: 0.3760 vs XGB: 0.3633). La causa: XGBoost no usa <code>class_weight='balanced'</code>, por lo que en el test con 175K registros su sesgo hacia clases mayoritarias se amplifica. Esto se confirma comparando su accuracy bruta (0.3878, la más alta de todos) con su balanced accuracy (0.3633, tercera): predice bien las clases grandes a costa de las minoritarias como <em>Otras</em> y <em>Digestivas</em>.
+        </div>
+        <p><strong>Resultado en test (XGB-v2):</strong> Accuracy = 0.3878, Balanced Accuracy = 0.3633, Macro F1 = 0.3343</p>
+      </div>
+    </div>
+
+    <!-- CatBoost -->
+    <div class="modelo-sweep">
+      <div class="modelo-sweep-header">Modelo 5 — CatBoost: el mejor modelo <span style="float:right;font-weight:400;font-size:0.85rem">Celdas 36–37</span></div>
+      <div class="modelo-sweep-body">
+        <p>CatBoost es un algoritmo de gradient boosting desarrollado por Yandex, optimizado específicamente para <strong>datos con variables categóricas</strong>. Sus ventajas clave:</p>
+        <ul style="margin: 10px 0 0 20px; line-height:2">
+          <li><strong>Ordered boosting:</strong> técnica que reduce el sesgo de predicción en datos de entrenamiento</li>
+          <li><strong><code>auto_class_weights='Balanced'</code>:</strong> ajusta automáticamente el peso de cada clase según su frecuencia, compensando el desbalanceo</li>
+          <li><strong>Regularización interna:</strong> reduce el riesgo de overfitting sin necesidad de ajuste manual extensivo</li>
+        </ul>
+        <table style="margin-top:16px">
+          <thead><tr><th>Parámetro</th><th>Valor</th><th>Justificación</th></tr></thead>
+          <tbody>
+            <tr><td>iterations</td><td>500</td><td>Número de árboles — suficiente para convergencia sin exceso</td></tr>
+            <tr><td>learning_rate</td><td>0.10</td><td>Tasa de aprendizaje estándar para boosting</td></tr>
+            <tr><td>depth</td><td>6</td><td>Profundidad balanceada (no superficial, no excesiva)</td></tr>
+            <tr><td>auto_class_weights</td><td>Balanced</td><td>Penaliza proporcionalmente las clases minoritarias</td></tr>
+          </tbody>
+        </table>
+        <div class="callout success">
+          <strong>Resultado en test: mejor modelo de los 5</strong>
+          <br>Accuracy = 0.3770 | Balanced Accuracy = <strong>0.3809</strong> | Macro F1 = <strong>0.3484</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4.6 COMPARACIÓN FINAL -->
+  <div id="comparacion">
+    <h3 class="subsection-title">4.6 Comparación final de todos los modelos <span class="cell-ref">Celda 43</span></h3>
+    <div class="card">
+      <div class="img-wrap">
+        <img src="html_assets/model_cell43_final-table-_1.png" alt="Comparación final de modelos">
+        <p class="img-caption">Balanced Accuracy en el conjunto de prueba (175 628 registros) para los 5 modelos. CatBoost lidera con 0.3809. <span class="cell-ref">Celda 43</span></p>
+      </div>
+      <table>
+        <thead><tr><th>Modelo</th><th>Test Accuracy</th><th>Test Balanced Accuracy</th><th>Test Macro F1</th></tr></thead>
+        <tbody>
+          <tr class="best"><td>CatBoost ★</td><td>0.3770</td><td><strong>0.3809</strong></td><td><strong>0.3484</strong></td></tr>
+          <tr><td>Random Forest</td><td>0.3760</td><td>0.3760</td><td>0.3428</td></tr>
+          <tr><td>XGBoost</td><td><strong>0.3878</strong></td><td>0.3633</td><td>0.3343</td></tr>
+          <tr><td>Logistic Regression</td><td>0.3568</td><td>0.3618</td><td>0.3293</td></tr>
+          <tr><td>Decision Tree</td><td>0.3504</td><td>0.3203</td><td>0.2991</td></tr>
+        </tbody>
+      </table>
+      <div class="callout info">
+        <strong>¿Por qué usar Balanced Accuracy y no Accuracy ordinaria?</strong>
+        Con 9 clases desbalanceadas (la más grande tiene 16.5 % y la más pequeña 3.2 %) un modelo podría predecir siempre la clase mayoritaria y obtener ~16 % de accuracy. La Balanced Accuracy promedia el recall de <em>cada clase por separado</em>, por lo que un modelo que ignora las clases pequeñas no puede obtener una puntuación alta. Es la métrica justa para problemas multiclase desbalanceados.
+      </div>
+    </div>
+  </div>
+
+  <!-- 4.7 FASE 8 -->
+  <div id="fase8">
+    <h3 class="subsection-title">4.7 Análisis profundo del mejor modelo: CatBoost <span class="cell-ref">Celdas 45–46</span></h3>
+
+    <div class="card">
+      <h4 style="margin-bottom:14px; color:var(--azul-oscuro)">Matriz de confusión normalizada</h4>
+      <p>La matriz de confusión muestra <em>qué clases predice correctamente el modelo y con cuáles se confunde</em>. Cada fila representa la clase real; cada columna, la predicción. Los valores en la diagonal son los aciertos (recall por clase). Los valores fuera de la diagonal son confusiones.</p>
+      <div class="img-wrap">
+        <img src="html_assets/model_cell45_9a7b2531_0.png" alt="Matriz de confusión normalizada CatBoost">
+        <p class="img-caption">Matriz de confusión normalizada por fila del modelo CatBoost. Los valores en la diagonal representan el recall de cada clase (fracción de registros de esa clase predichos correctamente). <span class="cell-ref">Celda 45</span></p>
+      </div>
+
+      <table>
+        <thead><tr><th>Macro-grupo</th><th>Recall</th><th>Interpretación epidemiológica</th></tr></thead>
+        <tbody>
+          <tr class="best"><td>Materno_perinatal</td><td><strong>0.882</strong></td><td>Recién nacidos tienen edad≈0; señal demográfica inequívoca que ningún otro grupo comparte</td></tr>
+          <tr class="best"><td>Causas_externas</td><td><strong>0.640</strong></td><td>Hombres jóvenes (18–35) con pico claro; el sexo+edad identifica bien este grupo</td></tr>
+          <tr><td>Mal_definidas</td><td>0.480</td><td>Códigos R agrupados con señal demográfica moderada (senilidad sí tiene perfil etario)</td></tr>
+          <tr><td>Cardiovasculares</td><td>0.400</td><td>Adultos mayores, ambos sexos; competencia con Endocrinas y Neoplasias</td></tr>
+          <tr><td>Endocrinas_metabólicas</td><td>0.286</td><td>Perfil muy similar al cardiovascular — difícil de separar con solo demografía</td></tr>
+          <tr><td>Infecciosas_respiratorias</td><td>0.244</td><td>Afecta tanto a niños como a adultos mayores — señal etaria ambigua</td></tr>
+          <tr><td>Neoplasias</td><td>0.240</td><td>Adultos mayores, perfil muy solapado con cardiovasculares</td></tr>
+          <tr><td>Digestivas_genitourinarias</td><td>0.147</td><td>Sin señal demográfica fuerte — el modelo tiene dificultad estructural aquí</td></tr>
+          <tr><td>Otras</td><td>0.109</td><td>Clase residual heterogénea — la baja predicción es esperable por diseño</td></tr>
+        </tbody>
+      </table>
+
+      <div class="callout warn">
+        <strong>¿Por qué el recall de algunas clases es bajo?</strong>
+        No es una falla del modelo: es una limitación estructural del problema. Las variables disponibles (edad, sexo, departamento, ocupación, escolaridad) permiten identificar <em>perfiles de riesgo</em>, no causas individuales. La diferencia entre morir de diabetes (<em>Endocrinas</em>) o de un infarto (<em>Cardiovasculares</em>) en un hombre de 65 años no está en su demografía —está en su historial clínico, que no está disponible en los datos del INE.
+      </div>
+    </div>
+
+    <div class="card">
+      <h4 style="margin-bottom:14px; color:var(--azul-oscuro)">Importancia de variables — CatBoost</h4>
+      <p>La feature importance muestra <em>cuánto contribuye cada variable</em> a las predicciones del modelo. Un valor alto indica que esa variable divide bien el espacio de clases.</p>
+      <div class="img-wrap">
+        <img src="html_assets/model_cell46_c7b7ed5f_0.png" alt="Feature importance CatBoost">
+        <p class="img-caption">Izquierda: importancia agrupada por variable original. Derecha: top 20 categorías individuales más discriminativas. <span class="cell-ref">Celda 46</span></p>
+      </div>
+      <div class="callout success">
+        <strong>Lectura del feature importance</strong>
+        <br>• <strong>Edad / grupo_edad</strong> lidera con amplio margen — confirma que la distribución etaria es la señal más fuerte para separar grupos de causa de muerte.
+        <br>• <strong>Ocupación y escolaridad</strong> tienen alta importancia porque son proxies del nivel socioeconómico, que determina el tipo de riesgo al que está expuesta una persona (violencia, acceso a diagnóstico, tipo de trabajo).
+        <br>• <strong>Sexo</strong> es particularmente discriminativo para Causas_externas (mayoritariamente masculinas) y Materno_perinatal (exclusivamente femenino).
+        <br>• <strong>Departamento</strong> captura la heterogeneidad geográfica validada en la H2 del EDA.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════ SECCIÓN 5: CONCLUSIONES -->
+<div id="conclusiones" class="section">
+  <h2 class="section-title">5. Conclusiones</h2>
+  <div class="card">
+
+    <h3 class="subsection-title">Lo que los datos confirmaron</h3>
+    <ul style="margin-left:20px; line-height:2.2">
+      <li>Guatemala tiene una <strong>doble carga de mortalidad</strong> estructural: violencia concentrada en hombres jóvenes del Oriente y causas infecciosas/nutricionales en niños del Altiplano.</li>
+      <li>El pico de mortalidad masculina entre 18–35 años es estadísticamente robusto y persistente en los 10 años analizados.</li>
+      <li>La pandemia de 2020–2021 generó un exceso de mortalidad de ~33 000 defunciones respecto a la tendencia histórica.</li>
+      <li>Los sábados y domingos concentran significativamente más muertes violentas, lo que valida la hipótesis del componente temporal de la violencia.</li>
+    </ul>
+
+    <h3 class="subsection-title">Lo que el modelo predictivo aportó</h3>
+    <ul style="margin-left:20px; line-height:2.2">
+      <li>Con <em>solo</em> variables demográficas y temporales, es posible predecir el macro-grupo de causa de muerte con <strong>Balanced Accuracy de 0.38</strong> (9× por encima del azar puro de 1/9 = 0.11).</li>
+      <li>Las clases con señal demográfica clara (<em>Materno/Perinatal</em>, <em>Causas externas</em>) se predicen con muy buen recall (88 % y 64 % respectivamente).</li>
+      <li><strong>CatBoost</strong> superó a Random Forest, XGBoost, Regresión Logística y Árbol de Decisión gracias al manejo de desbalanceo de clases (<code>auto_class_weights='Balanced'</code>).</li>
+      <li>La edad es con mucho la variable más predictiva, seguida por ocupación, escolaridad, sexo y departamento — todas con asociación χ² significativa al nivel p&lt;0.001.</li>
+    </ul>
+
+    <h3 class="subsection-title">Limitaciones</h3>
+    <ul style="margin-left:20px; line-height:2.2">
+      <li><strong>El modelo predice la causa certificada, no la causa real.</strong> Un certificante que usa R99 ("causa no especificada") en lugar de un código específico introduce ruido irrecuperable — el 14.5 % del dataset cae en <em>Mal_definidas</em>.</li>
+      <li><strong>Sin historial clínico</strong>, separar <em>Cardiovasculares</em> de <em>Neoplasias</em> de <em>Endocrinas</em> en adultos mayores es estructuralmente difícil: comparten el mismo perfil demográfico.</li>
+      <li><strong>Variables no incluidas</strong> como <code>Areag</code> (urbano/rural) y <code>Ocur</code> (lugar de ocurrencia) podrían mejorar el rendimiento, especialmente para separar causas externas (vía pública) de maternas (hospital).</li>
+    </ul>
+
+    <div class="callout success">
+      <strong>Reflexión final</strong>
+      Un Balanced Accuracy de 0.38 en una clasificación de 9 grupos con variables puramente demográficas es un resultado <em>epidemiológicamente útil</em>. El modelo no reemplaza el diagnóstico médico, pero demuestra que los patrones de mortalidad tienen una firma demográfica medible que puede ser explotada para identificar poblaciones en riesgo, priorizar recursos de salud pública y detectar anomalías en el sistema de certificación de defunciones.
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  Análisis de Mortalidad en Guatemala 2013–2022 · Proyecto de Minería de Datos, Ciclo 7<br>
+  Datos: Instituto Nacional de Estadística (INE) · Modelos: Python, Scikit-learn, CatBoost, XGBoost
+</div>
+
+</div><!-- /container -->
+</body>
+</html>
