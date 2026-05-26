@@ -19,11 +19,6 @@ env/
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# Imágenes generadas
-*.png
-*.jpg
-*.jpeg
-
 # Archivos temporales y del sistema
 .DS_Store
 Thumbs.db
